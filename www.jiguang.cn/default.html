@@ -1,0 +1,569 @@
+﻿<!DOCTYPE html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no" />
+
+<meta name="360-site-verification" content="01e6f9e82b6acbfa4f52c2f5891e4d56" />
+<meta name="viewport" content="width=1024,maximum-scale=1">
+<meta name="baidu-site-verification" content="oMPJSh5huk" />
+
+<script type="text/javascript">
+	var base='';
+	var pageIndex = '';
+	var app_base_url = 'https://api.srv.jpush.cn/v1/portal-appdev';
+</script>
+<link rel="apple-touch-icon" href="/img/public/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/public/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/public/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/public/touch-icon-ipad-retina.png">
+<link rel="shortcut icon" href="/img/public/favicon2.ico" type="image/x-icon">
+<link rel="bookmark" href="/img/public/favicon2.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="css/font-awesome.min_2.css">
+<link rel="stylesheet" type="text/css" href="css/style_2.css">
+<link rel="stylesheet" type="text/css" href="css/style.small_2.css">
+<script src="js/jquery-2.1.3.min_2.js"></script>
+<script type="text/javascript" src="js/bootstrap.min_2.js"></script>
+</head>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min_2.css" media="screen">
+<script src="js/scrolloverflow.min_2.js"></script>
+<script src="js/jquery.fullpage_2.js"></script>
+<link rel="stylesheet" type="text/css" href="css/carousel_2.css">
+
+<meta name="keywords" content="极光推送, 消息推送，极光IM,极光短信,极光统计,极光大数据,极光反欺诈,极光iAPP,极光广告,极光数据报告,极光开发者服务，极光广告服务，极光数据服务，极光数据研究院">
+<meta name="description" content="极光，移动大数据服务商，产品覆盖消息推送、即时聊天、短信、统计分析等开发者服务以及极光广告服务和极光数据服务三大产品体系，为企业节约开发成本提升运营效率">
+<title>极光｜数据改变世界</title>
+<body style="opacity: 0;">
+<h1 class="hidden-tag"><a href="/" title="极光移动大数据">极光推送</a></h1>
+
+
+
+<div class="nav" role="banner">
+    <span class="mobile-toggle-icon menu-icon"></span>
+
+    
+        <a class="logo" href="/" title="极光移动大数据平台" style="background-image:url('images/logo_2.png');" data-no-retina></a>
+    
+
+    <div class="menu-box">
+        <!--<ul class="top-ul">-->
+            <!--<li class="top-li">-->
+                <!--<a href="/devservice"><h2 class="text">开发者服务</h2></a>-->
+                <!--<ul class="sub-ul">-->
+                    <!--<li class="sub-li"><a href="/push"><span class="mobile-sub-li-icon"></span><h2 class="text">极光推送</h2></a><br/><span class="separate-line"></span></li>-->
+                    <!--<li class="sub-li"><a href="/im"><span class="mobile-sub-li-icon"></span><h2 class="text">极光IM</h2></a><br/><span class="separate-line"></span></li>-->
+                    <!--<li class="sub-li"><a href="/sms"><span class="mobile-sub-li-icon"></span><h2 class="text">极光短信</h2></a><br/><span class="separate-line"></span></li>-->
+                    <!--<li class="sub-li"><a href="/analytics"><span class="mobile-sub-li-icon"></span><h2 class="text">极光统计</h2></a><br/><span class="separate-line"></span></li>-->
+                    <!--<li class="sub-li"><a href="/share"><span class="mobile-sub-li-icon"></span><h2 class="text">极光分享</h2></a></li>-->
+
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li class="top-li">-->
+                <!--<a href="/dataservice"><h2 class="text">数据服务</h2></a>-->
+                <!--<ul class="sub-ul">-->
+                    <!--<li class="sub-li"><a href="/iapp"><span class="mobile-sub-li-icon"></span><h2 class="text">iAPP</h2></a><br/><span class="separate-line"></span></li>-->
+                    <!--<li class="sub-li"><a href="/anti-fraud"><span class="mobile-sub-li-icon"></span><h2 class="text">反欺诈</h2></a><br/><span class="separate-line"></span></li>-->
+                    <!---->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li class="top-li"><a href="/jad"><h2 class="text">极光效果通</h2></a></li>-->
+            <!--<li class="top-li"><a href="/reports"><h2 class="text">数据报告</h2></a></li>-->
+            <!---->
+            <!--<li class="top-li"><a href="https://docs.jiguang.cn" target="_blank" ><span class="text">文档</span></a></li>-->
+            <!--<li class="top-li"><a href="http://community.jiguang.cn" target="_blank"><span class="text">社区</span></a></li>-->
+            <!--<li class="top-li"><a href="http://blog.jiguang.cn" target="_blank"><span class="text">Blog</span></a></li>-->
+            <!--<li class="top-li"><a href="/media/news"><span class="text">媒体资讯</span></a></li>-->
+        <!--</ul>-->
+    </div>
+    <div class="control" id="nav-control-login-register">
+        <ul>
+ 	        
+            
+                <li class="loged-out-li"><a class="login action" id="id-login">登录</a></li>
+                <li class="loged-out-li"><a class="register action" id="id-register">注册</a></li>
+            
+        </ul>
+    </div>
+</div>
+<!-- Stats -->
+<script type="text/javascript">
+    //获取服务名称
+    var obj = {'im': 'IM', 'push':'推送','sms': '短信', 'analytics':'统计','share': '分享'};
+    var domains = location.pathname.split('/');
+    var service_name = obj[domains[domains.length -1]] || '其他页面';
+    //解析来源
+    var pattern = /[&\?]_jfrom=([a-zA-Z0-9]+)(&)?/;
+    var search = location.search.match(pattern);
+    var from = search && search[1] || '其他渠道';
+
+    var _paq = _paq || [];
+    _paq.push(['setDocumentTitle', from + '/' + service_name]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//statdy7dy.jiguang.cn/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '6']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+
+    //登录或注册统计
+    $(document).ready(function(){
+        $('#id-login').on('click', function(){
+            loginOrRegister('login')
+        });
+        $('#id-register').on('click', function(){
+            loginOrRegister('register')
+        });
+    });
+    function loginOrRegister(type) {
+        var btnType = type == 'register'? '注册': '登录';
+        if (_paq) {
+            _paq.push(['setDocumentTitle', btnType + '/'+ from + '/' + service_name]);
+            _paq.push(['trackPageView']);
+        }
+        location.href = "/accounts/"+type+"/form";
+    }
+</script>
+<!-- End Stats Code -->
+
+<div id="fullpage-wrapper" class="index-page">
+    <div class="section section-one">
+        <div class="intro-wrapper"  id="large-header">
+            <div class="content">
+                <div class="title" >
+                    <p class="title-en">数据改变世界</p>
+                    <p class="title-zh"><span class="horizontal-line"></span>连接构建<span class="dot"></span>分析洞察<span class="dot"></span>获取用户<span class="horizontal-line"></span></p>
+                </div>
+                <canvas id="index-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="section section-two">
+        <div class="title">
+            <p class="title-1"><span class="en">DEVELOPERS</span> 开发者服务</p>
+            <p class="title-2">极光开发者服务为您的移动应用加油</p>
+        </div>
+        <div class="content">
+            <a class="item item-1" href="/push" data-title="极光推送">
+                <div class="pic-wrapper">
+                    <img class="icon" src="picture/index_devservice_1_2.svg" alt="极光推送">
+                </div>
+                <p class="name">极光推送</p>
+                <p class="detail">极光推送使开发者可以
+                    <br/>即时地向其应用程序的用户推送通知
+                    <br/>或者消息，与用户保持互动，从而有
+                    <br/>效地提高留存率，提升用户体验。
+                </p>
+                <span class="more">了解详情</span>
+            </a>
+            <a class="item item-2" href="/im" data-title="极光IM">
+                <div class="pic-wrapper">
+                    <img class="icon" src="picture/index_devservice_2_2.svg" alt="极光IM">
+                </div>
+                <p class="name">极光IM</p>
+                <p class="detail">极光IM为App开发者提供
+                    <br/>易用可靠的即时通信云服务，
+                    <br/>搭建应用用户间自由的交流通道，
+                    <br/>增强产品社会化属性。
+                </p>
+                <span class="more">了解详情</span>
+            </a>
+            <a class="item item-3" href="/sms" data-title="极光短信">
+                <div class="pic-wrapper">
+                    <img class="icon" src="picture/index_devservice_3_2.svg" alt="极光短信">
+                </div>
+                <p class="name">极光短信</p>
+                <p class="detail">极光短信验证码为开发者
+                    <br/>提供短信验证码服务，通过SDK和
+                    <br/>REST API进行短信验证。
+                </p>
+                <span class="more">了解详情</span>
+            </a>
+            <a class="item item-4" href="/analytics" data-title="极光统计">
+                <div class="pic-wrapper">
+                    <img class="icon" src="picture/index_devservice_4_2.svg" alt="极光统计">
+                </div>
+                <p class="name">极光统计</p>
+                <p class="detail">通过简洁直观的数据报表
+                    <br/>帮助开发者了解用户的属性和使用情
+                    <br/>况，优化用户体验，为企业决策提供
+                    <br/>有效的数据支撑。
+                </p>
+                <span class="more">了解详情</span>
+            </a>
+        </div>
+    </div>
+    <div class="section section-three large-header">
+        <div class="dataservice-bg"></div>
+        <div class="text-wrapper">
+            <p class="title">
+                <span class="title-zh"><span class="en">DATA SERVICE</span> 数据服务</span>
+            </p>
+            <p class="description">将开发者，终端用户，企业组织和开放数据联合起来形成高价值数据服务云。</p>
+            <a class="more" href="/dataservice" title="极光数据服务">了解详情</a>
+        </div>
+    </div>
+    <div class="section section-four">
+        <div id="sonar-canvas">
+            <div style="opacity:0" id="loadAfter">
+                <div id="network-icon">
+                    <div class="hidden-sonar-network"></div>
+                </div>
+                <div id="cloud-icon" class="default-icon">
+                    <div class="pseudo-circle"></div>
+                    <img src="picture/v3-cloud-icon-set2_2.svg" class="icon-img" data-no-retina/>
+                    <div class="hidden-sonar"></div>
+                    <div class="line-canvas">
+                        <svg id="cloud-line" class="line-animate-config">
+                            <line x1="0" y1="0" x2="66" y2="4" class="line-slim"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="house-icon" class="default-icon">
+                    <div class="pseudo-circle"></div>
+                    <img src="picture/v3-house-icon-set2_2.svg" class="icon-img"  data-no-retina/>
+                    <div class="hidden-sonar"></div>
+                    <div class="line-canvas">
+                        <svg id="house-line" class="line-animate-config">
+                            <line x1="0" y1="-4" x2="6" y2="50" class="line-slim"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="mobile-icon" class="default-icon">
+                    <div class="pseudo-circle"></div>
+                    <img src="picture/v3-phone-icon-set2_2.svg" data-no-retina/>
+                    <div class="hidden-sonar"></div>
+                    <div class="line-canvas">
+                        <div class="bg"></div>
+                        <svg id="mobile-line" class="line-animate-config">
+                            <line x1="0" y1="0" x2="-84" y2="-28" class="line-slim"/>
+                        </svg>
+                        <svg id="mobile-line2" class="line-animate-config">
+                            <line x1="0" y1="0" x2="-30" y2="-83" class="line-slim"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="corp-icon" class="default-icon">
+                    <div class="pseudo-circle"></div>
+                    <img src="picture/v3-corp-icon-set2_2.svg" data-no-retina/>
+                    <div class="hidden-sonar"></div>
+                    <div class="line-canvas">
+                        <div class="bg"></div>
+                        <svg id="corp-line" class="line-animate-config">
+                            <line x1="0" y1="0" x2="-48" y2="38" class="line-slim"/>
+                        </svg>
+                        <svg id="corp-line2" class="line-animate-config">
+                            <line x1="0" y1="0" x2="-28" y2="5" class="line-slim"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="laptop-icon" class="default-icon">
+                    <div class="pseudo-circle"></div>
+                    <img src="picture/v3-laptop-icon-set2_2.svg" data-no-retina/>
+                    <div class="hidden-sonar"></div>
+                    <div class="line-canvas">
+                        <div class="bg"></div>
+                        <svg id="laptop-line" class="line-animate-config">
+                            <line x1="0" y1="0" x2="126" y2="93" class="line-slim"/>
+                        </svg>
+                        <svg id="laptop-line2" class="line-animate-config">
+                            <line x1="0" y1="0" x2="18" y2="36" class="line-slim"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="tablet-icon" class="default-icon">
+                    <div class="pseudo-circle"></div>
+                    <img src="picture/v3-tablet-icon-set2_2.svg" data-no-retina/>
+                    <div class="hidden-sonar"></div>
+                    <div class="line-canvas">
+                        <div class="bg"></div>
+                        <svg id="tablet-line" class="line-animate-config">
+                            <line x1="0" y1="0" x2="170" y2="-50" class="line-slim"/>
+                        </svg>
+                        <svg id="tablet-line2" class="line-animate-config">
+                            <line x1="0" y1="0" x2="13" y2="-24" class="line-slim"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <img src="picture/v3-bg-connections-all_2.png" id="three-connectors" data-no-retina/>
+        </div>
+        <div class="content">
+            <p class="title">
+                <span class="title-zh">极光效果通</span>
+            </p>
+            <p class="description">数据驱动的效果广告平台，基于极光海量实时数据，众多定向条件精准锁定目标人群，结合极光智能竞价体系实现广告的高效投放，有效节约广告成本。</p>
+            <a class="more" href="/jad" title="精准广告">了解详情</a>
+        </div>
+    </div>
+    <div class="section section-five">
+        <div class="view-content">
+            <div class="j-title-box">
+                <p class="en">Latest News</p>
+                <p class="cn">最新动态</p>
+            </div>
+            <div class="content">
+                <div class="news-list">
+                    <div class="headline">
+                        <span class="headline-zh">媒体新闻</span>
+                        <span class="dot"></span>
+                        <span class="headline-zh">MEDIA</span>
+                    </div>
+                    
+                        <div class="item">
+                            <a class="pic" target="_blank" style="background: url(images/c4394903c28748f2a5dbb45224b81b31_2.jpg) no-repeat center center; background-size: cover" href="http://mp.weixin.qq.com/s/k0_-OWMeP-dQL_EPF1mFyg"></a>
+                            <div class="right-content">
+                                <p class="line-one">
+                                    <a class="name" target="_blank" href="http://mp.weixin.qq.com/s/k0_-OWMeP-dQL_EPF1mFyg">第一财经周刊专访：App背后的大推手</a>
+                                    
+                                </p>
+                                <p class="line-two">“我们也很期待，数据未来在行业的演变甚至世界的变革之中，起到越来越多的作用。” 罗伟东相信“数据可以改变世界”。</p>
+                                <p class="date">2017-07-31 | 微信公众号</p>
+                                
+                            </div>
+                        </div>
+                    
+                        <div class="item">
+                            <a class="pic" target="_blank" style="background: url(images/70fbc9a61b7f42338ea01b08add7b957_2.jpg) no-repeat center center; background-size: cover" href="http://mp.weixin.qq.com/s/AoBycss99toXBgiO4c7Vkg"></a>
+                            <div class="right-content">
+                                <p class="line-one">
+                                    <a class="name" target="_blank" href="http://mp.weixin.qq.com/s/AoBycss99toXBgiO4c7Vkg">极光推送携热云、同道、触宝电话探讨数据驱动运营</a>
+                                    
+                                </p>
+                                <p class="line-two">热云CEO白冬立、同道联合创始人兼COO Charles、极光资深产品经理张希以及触宝电话资深产品经理吴高明齐聚第五期极光开发者沙龙，畅谈如何用数据驱动运营。</p>
+                                <p class="date">2017-07-29 | 微信公众号</p>
+                                
+                            </div>
+                        </div>
+                    
+                        <div class="item">
+                            <a class="pic" target="_blank" style="background: url(images/de4fce03dadb417db2c77f19f6f9aa47_2.jpg) no-repeat center center; background-size: cover" href="http://www.jiemian.com/article/1502006.html"></a>
+                            <div class="right-content">
+                                <p class="line-one">
+                                    <a class="name" target="_blank" href="http://www.jiemian.com/article/1502006.html">界面专访：在BATJ主导的数据市场中 这家公司凭什么杀出一条血路？</a>
+                                    
+                                </p>
+                                <p class="line-two">极光用了六年漫长的时间来经营数据这座“富矿”，并且从BAT和流量大户们的绞杀中，赢得了自己的市场。</p>
+                                <p class="date">2017-07-27 | 界面新闻</p>
+                                
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="update-list">
+                    <div class="headline">
+                        <span class="headline-zh">产品更新</span>
+                        <span class="dot"></span>
+                        <span class="headline-zh">UPDATES</span>
+                    </div>
+                    <div class="item">
+                        <span class="index">1</span>
+                        <div class="detail">
+                            <p class="date">2016年6月22日</p>
+                            <a class="version" target="_blank" href="http://docs.jiguang.cn/updates/#jpush-android-sdk-v216">JPush Android SDK v2.1.6 release</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="index">2</span>
+                        <div class="detail">
+                            <p class="date">2016年6月21日</p>
+                            <a class="version" target="_blank" href="http://docs.jiguang.cn/updates/#jpush-ios-sdk-v218">JPush iOS SDK v2.1.8 release</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="index">3</span>
+                        <div class="detail">
+                            <p class="date">2016年6月15日</p>
+                            <a class="version" target="_blank" href="http://docs.jiguang.cn/updates/#jmessage-ios-sdk-v211">JMessage iOS SDK v2.1.1 release</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <span class="index">4</span>
+                        <div class="detail">
+                            <p class="date">2016年6月12日</p>
+                            <a class="version" target="_blank" href="http://docs.jiguang.cn/updates/#jmessage-android-sdk-v125">JMessage Android SDK v1.2.5 release</a>
+                        </div>
+                    </div>
+                    <span class="vertical-line"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="section section-six" >
+        <div id="scroll-content">
+            <div class="case-wrapper">
+                <div class="j-title-box">
+                    <p class="en">Customers</p>
+                    <p class="cn">合作案例</p>
+                </div>
+                <div class="slider-wrapper">
+                    <div id="index-case-slider" class="carousel bootstrap-slide slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item item-1 active">
+                                <div class="pic pic-1"><span class="logo"></span></div>
+                                <div class="pic pic-2"><span class="logo"></span></div>
+                                <div class="pic pic-3"><span class="logo"></span></div>
+                                <div class="pic pic-4"><span class="logo"></span></div>
+                                <div class="pic pic-5"><span class="logo"></span></div><br/>
+                                <div class="pic pic-6"><span class="logo"></span></div>
+                                <div class="pic pic-7"><span class="logo"></span></div>
+                                <div class="pic pic-8"><span class="logo"></span></div>
+                                <div class="pic pic-9"><span class="logo"></span></div>
+                                <div class="pic pic-10"><span class="logo"></span></div><br/>
+                                <div class="pic pic-11"><span class="logo"></span></div>
+                                <div class="pic pic-12"><span class="logo"></span></div>
+                                <div class="pic pic-13"><span class="logo"></span></div>
+                                <div class="pic pic-14"><span class="logo"></span></div>
+                                <div class="pic pic-15"><span class="logo"></span></div>
+                            </div>
+                            <div class="item item-2">
+                                <div class="pic pic-1"><span class="logo"></span></div>
+                                <div class="pic pic-2"><span class="logo"></span></div>
+                                <div class="pic pic-3"><span class="logo"></span></div>
+                                <div class="pic pic-4"><span class="logo"></span></div>
+                                <div class="pic pic-5"><span class="logo"></span></div><br/>
+                                <div class="pic pic-6"><span class="logo"></span></div>
+                                <div class="pic pic-7"><span class="logo"></span></div>
+                                <div class="pic pic-8"><span class="logo"></span></div>
+                                <div class="pic pic-9"><span class="logo"></span></div>
+                                <div class="pic pic-10"><span class="logo"></span></div><br/>
+                                <div class="pic pic-11"><span class="logo"></span></div>
+                                <div class="pic pic-12"><span class="logo"></span></div>
+                                <div class="pic pic-13"><span class="logo"></span></div>
+                                <div class="pic pic-14"><span class="logo"></span></div>
+                                <div class="pic pic-15"><span class="logo"></span></div>
+                            </div>
+                            <div class="item item-3">
+                                <div class="pic pic-1"><span class="logo"></span></div>
+                                <div class="pic pic-2"><span class="logo"></span></div>
+                                <div class="pic pic-3"><span class="logo"></span></div>
+                                <div class="pic pic-4"><span class="logo"></span></div>
+                                <div class="pic pic-5"><span class="logo"></span></div><br/>
+                                <div class="pic pic-6"><span class="logo"></span></div>
+                                <div class="pic pic-7"><span class="logo"></span></div>
+                                <div class="pic pic-8"><span class="logo"></span></div>
+                                <div class="pic pic-9"><span class="logo"></span></div>
+                                <div class="pic pic-10"><span class="logo"></span></div><br/>
+                                <div class="pic pic-11"><span class="logo"></span></div>
+                                <div class="pic pic-12"><span class="logo"></span></div>
+                                <div class="pic pic-13"><span class="logo"></span></div>
+                                <div class="pic pic-14"><span class="logo"></span></div>
+                                <div class="pic pic-15"><span class="logo"></span></div>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#index-case-slider" data-slide-to="0" class="active"></li>
+                            <li data-target="#index-case-slider" data-slide-to="1"></li>
+                            <li data-target="#index-case-slider" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            
+
+
+<div class="foot">
+    <div class="j-center-block">
+        <div class="link-list">
+            <div class="column-1 column">
+                <span class="title">联系我们</span>
+                <ul>
+                    <li>商务QQ：<a target="_blank" href="http://wpa.b.qq.com/cgi/wpa.php?ln=2&uin=800024881">800024881</a></li>
+                    <li>开发者技术邮箱：<a href="mailto:support@jiguang.cn">support@jiguang.cn</a></li>
+                    <li>开发者商务邮箱：<a href="mailto:sales@jiguang.cn">sales@jiguang.cn</a></li>
+                    <li>极光效果通服务邮箱：<a href="mailto:sales@jiguang.cn">sales@jiguang.cn</a></li>
+                    <li>DMP服务邮箱：<a href="mailto:dataservice@jiguang.cn">dataservice@jiguang.cn</a></li>
+                    <li>iAPP邮箱：<a href="mailto:iapp@jiguang.cn">iapp@jiguang.cn</a></li>
+                    <li><a target="_blank" href="/contact" rel="nofollow">更多联系方式</a></li>
+                </ul>
+            </div>
+            <div class="column-2 column">
+                <span class="title">保持接触</span>
+                <ul>
+                    <li>新浪官方微博：<a href="http://weibo.com/jpush" target="_blank">@极光推送</a></li>
+                    <li>微信公众号：lovejpush</li>
+                    <li>推送技术支持QQ群：178098500</li>
+                    <li>IM技术支持QQ群：514440135</li>
+                    <li><a target="_blank" href="http://community.jiguang.cn" rel="nofollow">技术支持社区</a></li>
+                    <li><a target="_blank" href="http://blog.jiguang.cn" rel="nofollow">极光推送Blog</a></li>
+                </ul>
+            </div>
+            <div class="column-3 column">
+                <span class="title">关于我们</span>
+                <ul>
+                    <li><a rel="nofollow" target="_blank" href="/about">公司简介</a></li>
+                    <li><a rel="nofollow" target="_blank" href="/license">开发者协议</a></li>
+                    <li><a rel="nofollow" target="_blank" href="/license/privacy">隐私政策</a></li>
+                    <li><a rel="nofollow" target="_blank" href="/disclaimer">免责声明</a></li>
+                </ul>
+            </div>
+            <div class="column-4 column">
+                <span class="title">友情链接</span>
+                <ul>
+                    <li><a target="_blank" href="http://www.woshipm.com">人人都是产品经理</a></li>
+                    <li><a target="_blank" href="http://www.datayuan.cn/">数据猿</a></li>
+                    <li><a target="_blank" href="/links">更多友情链接</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="info-wrapper">
+            <img src="picture/footer_logo_2.png" class="company-logo">
+            <p class="company-name">深圳市和讯华谷信息技术有限公司</p>
+            <p class="copyright">版权所有 @2011-2017&nbsp;&nbsp;
+                <a class="copyright-link" href="http://gdcainfo.miitbeian.gov.cn/publish/query/indexFirst.action;jsessionid=207816A48E0BF7D36574D524C5B276EC" target="_blank">
+                    粤ICP备12056275号-13
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/app_2.js"></script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?189b62428f8aeea0cad9dcf521847b22";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script type="text/javascript" src="js/137831_2.js"></script>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-102421431-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+        </div>
+    </div>
+</div>
+
+<script src="js/index_mobile_adjust_2.js"></script>
+
+<script src="js/tweenlite.min_2.js"></script>
+<script src="js/easepack.min_2.js"></script>
+<script src="js/index_canvas_2.js"></script>
+<script src="js/three.min_2.js"></script>
+<script src="js/projector_2.js"></script>
+<script src="js/canvasrenderer_2.js"></script>
+<script src="js/index_app_2.js"></script>
+</body>

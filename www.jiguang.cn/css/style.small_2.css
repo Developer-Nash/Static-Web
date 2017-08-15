@@ -1,0 +1,2862 @@
+﻿@media screen and (max-width:1600px){
+
+    /**================================================section通用样式================================================**/
+
+    .j-center-block {
+        width: 855px;
+    }
+    .j-title-box .en {
+        padding-top: 70px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .j-title-box .cn {
+        font-size: 26px;
+    }
+    /**================================================section-商务咨询================================================**/
+    .section-business {
+        height: 320px;
+    }
+    .section-business .link-list {
+        margin: 40px auto 43px;
+    }
+    .section-business .link-list .item {
+        margin: 0 40px;
+        font-size: 22px;
+    }
+    .section-business .link-list .item img {
+        width: 24px;
+        height: 24px;
+    }
+    .section-business .business-button {
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 39px;
+        font-size: 16px;
+    }
+
+    /**================================================header================================================**/
+    .nav .logo {
+        height: 32px;
+        left: 35px;
+        top: 14px;
+    }
+    .nav .menu-box {
+        /*position: absolute;*/
+        /*right: 215px;*/
+    }
+    .nav .menu-box .top-li {
+        margin: 0 5px;
+    }
+    .nav .menu-box .top-li:nth-child(2){
+        width: 90px;
+    }
+    .nav .menu-box .top-li .text {
+        font-size: 14px;
+    }
+    .nav .menu-box .top-li .sub-li {
+        width: 90px;
+    }
+    .nav .menu-box .top-li .sub-li .separate-line {
+        width: 86px;
+        left: 2px;
+    }
+    .nav .menu-box .top-li .sub-li .text {
+        font-size: 14px;
+    }
+    .nav .control {
+        right: 35px;
+    }
+    .nav .control .action {
+        width: 70px;
+        height: 26px;
+        margin-left: 10px;
+        line-height: 26px;
+        font-size: 13px;
+        border-radius: 20px;
+    }
+
+
+    /**================================================footer样式================================================**/
+    .foot .link-list {
+        padding-top: 42px;
+        height: 164px;
+        padding-bottom: 35px;
+    }
+    .foot .link-list .column-1 {
+        width: 31%;
+    }
+    .foot .link-list .column-2 {
+        width: 33%;
+    }
+    .foot .link-list .column-3 {
+        width: 24%;
+    }
+    .foot .link-list .column-4 {
+        width: 12%;
+    }
+    .foot .link-list .column .title {
+        font-size: 14px;
+    }
+    .foot .link-list .column li {
+        line-height: 1.67;
+        font-size: 12px;
+    }
+    .foot .info-wrapper {
+        padding-top: 22px;
+        font-size: 12px;
+        height: 63px;
+    }
+    .foot .info-wrapper .company-logo {
+        top: 30px;
+        width: 153px;
+    }
+
+
+    /**================================================首页样式================================================**/
+    .index-page .section-one {
+    }
+    .index-page .section-one .intro-wrapper {
+    }
+    .index-page .section-one .content {
+    }
+    .index-page .section-one .intro-wrapper .title {
+        top: 43vh;
+    }
+    .index-page .section-one .intro-wrapper .title-en {
+        font-size: 50px;
+        letter-spacing: 36px;
+        padding-left: 36px;
+    }
+    .index-page .section-one .intro-wrapper .title-zh {
+        margin-top: 10px;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .index-page .section-one .intro-wrapper .dot {
+        width: 5px;
+        height: 5px;
+        margin: 0 10px;
+    }
+    .index-page .section-one .intro-wrapper .horizontal-line {
+        width: 54px;
+        margin: 17px;
+    }
+    .index-page .section-two {
+    }
+    .index-page .section-two .title {
+        margin-bottom: 5vh;
+    }
+    .index-page .section-two .title .title-1 {
+        margin-bottom: 8px;
+        font-size: 38px;
+    }
+    .index-page .section-two .title .title-2 {
+        font-size: 20px;
+        margin-bottom:60px;
+    }
+    .index-page .section-two .content {
+        margin: 0 auto;
+        width: 855px;
+        height: 315px;
+    }
+    .index-page .section-two .content .item {
+        width:213px;
+        height: 315px;
+    }
+    .index-page .section-two .content .item .pic-wrapper {
+        height: 92px;
+        line-height: 92px;
+        margin-bottom: 35px;
+    }
+    .index-page .section-two .content .item.item-1 .icon {
+        width: 74px;
+    }
+    .index-page .section-two .content .item.item-2 .icon {
+        width: 88px;
+    }
+    .index-page .section-two .content .item.item-3 .icon {
+        width: 103px;
+    }
+    .index-page .section-two .content .item.item-4 .icon {
+        width: 69px;
+    }
+    .index-page .section-two .content .item .name {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .index-page .section-two .content .item .detail {
+        font-size: 12px;
+        width: 240px;
+    }
+    .index-page .section-two .content .item .more {
+        top: 286px;
+        width: 85px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 12px;
+        margin-left: -43px;
+        border-radius: 13px;
+    }
+    .index-page .section-two .content .item .more:hover {
+    }
+
+    .index-page .section-three {
+    }
+    .index-page .section-three .text-wrapper {
+    }
+    .index-page .section-three #index-canvas {
+    }
+    .index-page .section-three .title {
+        margin-bottom: 10px;
+        margin-top: -90px;
+    }
+    .index-page .section-three .title .title-zh {
+        font-size: 38px;
+        vertical-align: middle;
+    }
+    .index-page .section-three .description {
+        font-size: 20px;
+        margin-bottom: 65px;
+    }
+    .index-page .section-three .more {
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        margin-left: -71px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .index-page .section-three .more:hover {
+    }
+
+    .index-page .section-four {
+    }
+    .index-page .section-four #sonar-canvas {
+        margin-top: -360px;
+        margin-left: 18vw;
+        position: absolute;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .index-page .section-four .content {
+        left: 58vw;
+        top: 32vh;
+    }
+    .index-page .section-four .content .title {
+        font-size: 42px;
+        margin-bottom: 2vh;
+    }
+    .index-page .section-four .content .title .title-en {
+        height: 38px;
+    }
+    .index-page .section-four .content .title .title-zh {
+        font-size: 36px;
+    }
+    .index-page .section-four .content .description {
+        font-size: 16px;
+        margin-bottom: 5vh;
+        width: 360px;
+    }
+    .index-page .section-four .content .more {
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .index-page .section-four .content .more:hover {
+    }
+
+    .index-page .section-five {
+    }
+    .index-page .section-five .title {
+    }
+    .index-page .section-five .title .title-en {
+        margin-bottom: 3vh;
+        height: 38px;
+    }
+    .index-page .section-five .title .title-zh {
+        font-size: 24px;
+        margin-bottom: 4vh;
+    }
+    .index-page .section-five .content {
+        width: 950px;
+        margin: 0 auto;
+    }
+    .index-page .section-five .content .headline {
+        margin-bottom: 4vh;
+    }
+    .index-page .section-five .content .headline-zh{
+        font-size: 15px;
+    }
+    .index-page .section-five .content .dot {
+        width: 2px;
+        height: 2px;
+    }
+    .index-page .section-five .content img {
+        height: 12px;
+        vertical-align: middle;
+    }
+    .index-page .section-five .content .news-list {
+        width: 70%;
+    }
+    .index-page .section-five .content .news-list .item {
+        margin-bottom: 3vh;
+    }
+    .index-page .section-five .content .news-list .pic {
+        width: 90px;
+        height: 90px;
+    }
+    .index-page .section-five .content .news-list .right-content {
+        margin-left: 30px;
+        margin-top:0px;
+    }
+    .index-page .section-five .content .news-list .right-content .line-one {
+        margin-bottom: 3px;
+    }
+    .index-page .section-five .content .news-list .right-content .name {
+        font-size: 14px;
+    }
+    .index-page .section-five .content .news-list .right-content .date {
+        font-size: 11px;
+    }
+    .index-page .section-five .content .news-list .line-two {
+        width: 460px;
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .index-page .section-five .content .news-list .more {
+        height: 17px;
+        width: 56px;
+        line-height: 17px;
+        font-size: 10px;
+    }
+    .index-page .section-five .content .news-list .more:hover {
+    }
+    .index-page .section-five .content .update-list {
+        width: 30%;
+    }
+    .index-page .section-five .content .update-list .vertical-line {
+        width: 4px;
+        left: 16px;
+        height: 35vh;
+        min-height: 300px;
+        top: 42px;
+    }
+    .index-page .section-five .content .update-list .item {
+        margin-bottom: 4vh;
+        margin-top:8px;
+    }
+    .index-page .section-five .content .update-list .index {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        font-size: 16px;
+        line-height: 36px;
+    }
+    .index-page .section-five .content .update-list .detail {
+    }
+    .index-page .section-five .content .update-list .date {
+        font-size: 12px;
+    }
+    .index-page .section-five .content .update-list .version {
+        font-size: 12px;
+    }
+    .index-page .section-six .slider-wrapper {
+        height: 540px;
+    }
+    .index-page .section-six .slider-wrapper .pic {
+        width: 136px;
+        height: 136px;
+        margin: 4px;
+    }
+    .index-page .section-six .slider-wrapper .logo {
+        width: 120px;
+        height: 37.5px;
+        margin: 50px auto 0;
+        background-size: 600px 112.5px;
+    }
+    .index-page .section-six .slider-wrapper .pic-1 .logo {
+        background-position: 0 0;
+    }
+    .index-page .section-six .slider-wrapper .pic-2 .logo {
+        background-position: -120px 0;
+    }
+    .index-page .section-six .slider-wrapper .pic-3 .logo {
+        background-position: -240px 0;
+    }
+    .index-page .section-six .slider-wrapper .pic-4 .logo {
+        background-position: -360px 0;
+    }
+    .index-page .section-six .slider-wrapper .pic-5 .logo {
+        background-position: -480px 0;
+    }
+    .index-page .section-six .slider-wrapper .pic-6 .logo {
+        background-position: 0 -37.5px;
+    }
+    .index-page .section-six .slider-wrapper .pic-7 .logo {
+        background-position: -120px -37.5px;
+    }
+    .index-page .section-six .slider-wrapper .pic-8 .logo {
+        background-position: -240px -37.5px;
+    }
+    .index-page .section-six .slider-wrapper .pic-9 .logo {
+        background-position: -360px -37.5px;
+    }
+    .index-page .section-six .slider-wrapper .pic-10 .logo {
+        background-position: -480px -37.5px;
+    }
+    .index-page .section-six .slider-wrapper .pic-11 .logo {
+        background-position: 0 -75px;
+    }
+    .index-page .section-six .slider-wrapper .pic-12 .logo {
+        background-position: -120px -75px;
+    }
+    .index-page .section-six .slider-wrapper .pic-13 .logo {
+        background-position: -240px -75px;
+    }
+    .index-page .section-six .slider-wrapper .pic-14 .logo {
+        background-position: -360px -75px;
+    }
+    .index-page .section-six .slider-wrapper .pic-15 .logo {
+        background-position: -480px -75px;
+    }
+
+
+    /**================================================开发者服务================================================**/
+    .devservice-page .section-1 {
+        height: 644px;
+    }
+    .devservice-page .section-1 .title-1  {
+        font-size: 43px;
+        margin: 57px auto 20px;
+    }
+    .devservice-page .section-1 .title-2  {
+        font-size: 38px;
+    }
+    .devservice-page .section-1 .title-3  {
+        font-size: 20px;
+        margin: 14px auto 60px;
+    }
+    .devservice-page .section-1 .pc {
+        width: 667px;
+    }
+    .devservice-page .section-1 .pc-bar {
+        height: 235px;
+    }
+    .devservice-page .section-2 {
+        margin-top: -30px;
+    }
+    .devservice-page .section-2 .feature-list {
+        margin: 55px auto 0;
+        padding-bottom: 40px;
+    }
+    .devservice-page .section-2 .item {
+        width: 340px;
+        height: 296px;
+        padding: 25px 27px 37px;
+        margin: 8px 6px;
+    }
+    .devservice-page .section-2 .item .icon-wrapper {
+        height: 96px;
+        line-height: 96px;
+    }
+    .devservice-page .section-2 .item:nth-child(1) img {
+        width: 88px;
+    }
+    .devservice-page .section-2 .item:nth-child(2) img {
+        width: 105px;
+    }
+    .devservice-page .section-2 .item:nth-child(3) img {
+        width: 114px;
+    }
+    .devservice-page .section-2 .item:nth-child(4) img {
+        width: 88px;
+    }
+    .devservice-page .section-2 .item .icon-wrapper img {
+        vertical-align: middle;
+    }
+    .devservice-page .section-2 .item .title {
+        font-size: 20px;
+        margin-top: 11px;
+        margin-bottom: 18px;
+    }
+    .devservice-page .section-2 .item .detail {
+        font-size: 14px;
+    }
+    .devservice-page .section-2 .item .to-be-continued {
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    .devservice-page .section-3 .feature-list {
+        margin-top: 30px;
+        padding-bottom: 130px;
+    }
+    .devservice-page .section-3 .item {
+        width: 136px;
+        height: 136px;
+        margin: 5px;
+    }
+    .devservice-page .section-3 .item .logo {
+        width: 120px;
+        height: 37px;
+        margin: 50px auto 0;
+        background-size: 600px 75px;
+    }
+    .devservice-page .section-3 .item.item-1 .logo {
+        background-position: 0 0;
+    }
+    .devservice-page .section-3 .item.item-2 .logo {
+        background-position: -120px 0;
+    }
+    .devservice-page .section-3 .item.item-3 .logo {
+        background-position: -240px 0;
+    }
+    .devservice-page .section-3 .item.item-4 .logo {
+        background-position: -360px 0;
+    }
+    .devservice-page .section-3 .item.item-5 .logo {
+        background-position: -480px 0;
+    }
+    .devservice-page .section-3 .item.item-6 .logo {
+        background-position: 0 -37px;
+    }
+    .devservice-page .section-3 .item.item-7 .logo {
+        background-position: -120px -37px;
+    }
+    .devservice-page .section-3 .item.item-8 .logo {
+        background-position: -240px -37px;
+    }
+    .devservice-page .section-3 .item.item-9 .logo {
+        background-position: -360px -37px;
+    }
+    .devservice-page .section-3 .item.item-10 .logo {
+        background-position: -480px -37px;
+    }
+    .devservice-page .section-4 {
+        height: 394px;
+    }
+    .devservice-page .section-4 .j-title-box .en {
+        padding-top: 40px;
+    }
+    .devservice-page .section-4 .feature-list {
+        width: 700px;
+        margin: 25px auto 0;
+        height: 238px;
+        background-size: 700px 183px;
+    }
+    .devservice-page .section-4 .feature-list .quote-list .item {
+        width: 564px;
+        left: 91px;
+        top: 25px;
+        font-size: 13px;
+    }
+    .devservice-page .section-4 .feature-list .quote-list .item .via {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .devservice-page .section-4 .feature-list .icon-list {
+        top: 200px;
+    }
+    .devservice-page .section-4 .feature-list .icon-list .icon {
+        width: 40px;
+        height: 40px;
+        margin: 0 6px;
+        background-size: 40px 40px;
+    }
+
+    /**================================================精准广告样式================================================**/
+    .ad-page .section-1 {
+        height: 370px;
+    }
+    .ad-page .section-1 .title-1 {
+        font-size: 36px;
+        padding-top: 116px;
+    }
+    .ad-page .section-1 .title-2 {
+        font-size: 16px;
+        margin-top: 26px;
+    }
+    .ad-page .section-2 .feature-list {
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+    .ad-page .section-2 .left-part {
+        width: 430px;
+    }
+    .ad-page .section-2 .left-part .slide-group{
+        height: 292px;
+        margin-left: -48px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item {
+        width: 196px;
+        height: 292px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item .img-box {
+        width: 196px;
+        height: 231px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item .img-name {
+        font-size: 12px;
+        width: 80px;
+        padding: 12px 8px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item-1 .img-box {
+        background-size: 159px 209px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item-1 .img-name {
+        margin-left: -15px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item-2 {
+        left: 120px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item-2 .img-box {
+        background-size: 165px 219px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item-3 {
+        left: 260px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item-3 .img-box {
+        background-size: 196px 231px;
+    }
+    .ad-page .section-2 .left-part .slide-group .item-3 .img-name {
+        margin-left: 40px;
+    }
+    /*.ad-page .section-2 .left-part .description-group {*/
+        /*width: 340px;*/
+        /*padding-top: 7px;*/
+    /*}*/
+    .ad-page .section-2 .left-part .description-group {
+        width: 300px;
+        margin-left: 25px;
+        position: relative;
+        overflow: hidden;
+        height: 20px;
+    }
+    .ad-page .section-2 .left-part .description-group .info {
+        width: 300px;
+    }
+    /*.ad-page .section-2 .left-part .description-group .info {*/
+        /*font-size: 12px;*/
+    /*}*/
+    .ad-page .section-2 .right-part {
+        width: 420px;
+        font-size: 16px;
+        padding-top: 110px;
+    }
+    .ad-page .section-3 .description {
+        width: 376px;
+        font-size: 16px;
+        padding-top: 82px;
+        padding-bottom: 200px;
+    }
+    .ad-page .section-3 .img-wrapper {
+        right: 0;
+        top: 12px;
+        width: 420px;
+        height: 320px;
+    }
+    .ad-page .section-3 .img-wrapper .svg-box {
+        left: 40px;
+        top: 40px;
+    }
+    .ad-page .section-3 .img-wrapper .svg-box img {
+        width: 300px;
+        height: 238px;
+    }
+    .ad-page .section-3 .img-wrapper .svg-box svg {
+        top: 0;
+        left: 2px;
+    }
+    .ad-page .section-3 .img-wrapper .icon {
+        width: 82px;
+    }
+    .ad-page .section-3 .img-wrapper .icon-1 {
+        right: 80px;
+        top: 0;
+        animation: popup 8s ease-in-out 0s infinite;
+        -webkit-animation: popup 8s ease-in-out 0s infinite;
+        -o-animation: popup 8s ease-in-out 0s infinite;
+        -moz-animation: popup 8s ease-in-out 0s infinite;
+    }
+    .ad-page .section-3 .img-wrapper .icon-2 {
+        left: 40px;
+        top: 50px;
+        animation: popup 8s ease-in-out 1.7s infinite;
+        -webkit-animation: popup 8s ease-in-out 1.7s infinite;
+        -o-animation: popup 8s ease-in-out 1.7s infinite;
+        -moz-animation: popup 8s ease-in-out 1.7s infinite;
+    }
+    .ad-page .section-3 .img-wrapper .icon-3 {
+        right:20px;
+        top: 143px;
+        animation: popup 8s ease-in-out 4.5s infinite;
+        -webkit-animation: popup 8s ease-in-out 4.5s infinite;
+        -o-animation: popup 8s ease-in-out 4.5s infinite;
+        -moz-animation: popup 8s ease-in-out 4.5s infinite;
+    }
+    .ad-page .section-3 .img-wrapper .icon-4 {
+        left: 20px;
+        top: 220px;
+        animation: popup 8s ease-in-out 7.5s infinite;
+        -webkit-animation: popup 8s ease-in-out 7.5s infinite;
+        -o-animation: popup 8s ease-in-out 7.5s infinite;
+        -moz-animation: popup 8s ease-in-out 7.5s infinite;
+    }
+    @keyframes popup {
+        0%   {width: 82px;}
+        6%  {width: 88px;}
+        12%  {width: 82px;}
+        100% {width: 82px;}
+    }
+    @-moz-keyframes popup {
+        0%   {width: 82px;}
+        6%  {width: 88px;}
+        12%  {width: 82px;}
+        100% {width: 82px;}
+    }
+
+    @-webkit-keyframes popup {
+        0%   {width: 82px;}
+        6%  {width: 88px;}
+        12%  {width: 82px;}
+        100% {width: 82px;}
+    }
+
+    @-o-keyframes popup {
+        0%   {width: 82px;}
+        6%  {width: 88px;}
+        12%  {width: 82px;}
+        100% {width: 82px;}
+    }
+    .ad-page .section-3 .img-wrapper .shadow {
+        width: 80px;
+        height: 80px;
+    }
+    .ad-page .section-3 .img-wrapper .shadow-1 {
+        right: 84px;
+        top: 4px;
+        animation: shadowFadeIn 8s ease-in-out 0s infinite;
+        -webkit-animation: shadowFadeIn 8s ease-in-out 0s infinite;
+        -o-animation: shadowFadeIn 8s ease-in-out 0s infinite;
+        -moz-animation: shadowFadeIn 8s ease-in-out 0s infinite;
+    }
+    .ad-page .section-3 .img-wrapper .shadow-2 {
+        left: 43px;
+        top: 66px;
+        animation: shadowFadeIn 8s ease-in-out 1.7s infinite;
+        -webkit-animation: shadowFadeIn 8s ease-in-out 1.7s infinite;
+        -o-animation: shadowFadeIn 8s ease-in-out 1.7s infinite;
+        -moz-animation: shadowFadeIn 8s ease-in-out 1.7s infinite;
+    }
+    .ad-page .section-3 .img-wrapper .shadow-3 {
+        right:24px;
+        top: 147px;
+        animation: shadowFadeIn 8s ease-in-out 4.5s infinite;
+        -webkit-animation: shadowFadeIn 8s ease-in-out 4.5s infinite;
+        -o-animation: shadowFadeIn 8s ease-in-out 4.5s infinite;
+        -moz-animation: shadowFadeIn 8s ease-in-out 4.5s infinite;
+    }
+    .ad-page .section-3 .img-wrapper .shadow-4 {
+        left: 24px;
+        top: 224px;
+        animation: shadowFadeIn 8s ease-in-out 7.5s infinite;
+        -webkit-animation: shadowFadeIn 8s ease-in-out 7.5s infinite;
+        -o-animation: shadowFadeIn 8s ease-in-out 7.5s infinite;
+        -moz-animation: shadowFadeIn 8s ease-in-out 7.5s infinite;
+    }
+    @keyframes shadowFadeIn {
+        0%  {box-shadow: none;}
+        6%  {box-shadow: 0 0 16px 2px rgba(0,0,0,0.2);}
+        10% {box-shadow: none;}
+        100%{box-shadow: none;}
+    }
+    @-moz-keyframes shadowFadeIn {
+        0%  {box-shadow: none;}
+        6%  {box-shadow: 0 0 16px 2px rgba(0,0,0,0.2);}
+        10% {box-shadow: none;}
+        100%{box-shadow: none;}
+    }
+
+    @-webkit-keyframes shadowFadeIn {
+        0%  {box-shadow: none;}
+        6%  {box-shadow: 0 0 16px 2px rgba(0,0,0,0.2);}
+        10% {box-shadow: none;}
+        100%{box-shadow: none;}
+    }
+
+    @-o-keyframes shadowFadeIn {
+        0%  {box-shadow: none;}
+        6%  {box-shadow: 0 0 16px 2px rgba(0,0,0,0.2);}
+        10% {box-shadow: none;}
+        100%{box-shadow: none;}
+    }
+    .ad-page .section-4 .title-description {
+        font-size: 16px;
+        padding-top: 8px;
+        padding-bottom: 26px;
+        width: 657px;
+    }
+    .ad-page .section-4 img {
+        width: 381px;
+        margin-bottom: 70px;
+    }
+    .ad-page .section-5 .feature-list .description {
+        padding-left: 450px;
+        font-size: 16px;
+        padding-top: 127px;
+        padding-bottom: 213px;
+    }
+    .ad-page .section-5 .feature-list img {
+        left: 14px;
+        top: 31px;
+        width: 341px;
+    }
+    .ad-page .section-6 .title-description {
+        width: 622px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .ad-page .section-6 .feature-list img {
+        width: 324px;
+        margin-bottom: 70px;
+    }
+    .ad-page .section-business .link-list .item {
+        margin: 0 30px;
+    }
+    /**================================================推送================================================**/
+    .push-page .section-1 {
+        height: 370px;
+    }
+    .push-page .section-1 .title-1 {
+        font-size: 36px;
+        padding-top: 90px;
+        margin-bottom: 13px;
+    }
+    .push-page .section-1 .title-2 {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .push-page .section-1 .title-3 {
+        font-size: 14px;
+    }
+    .push-page .section-1 .title-3 .vertical-line {
+        height: 21px;
+        margin: 0 10px;
+    }
+    .push-page .section-1 .button {
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 36px;
+    }
+    .push-page .section-2 {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .push-page .section-2 .left {
+        padding-right: 100px;
+    }
+    .push-page .section-2 .left .detail {
+        line-height: 2;
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    .push-page .section-2 .right .item {
+        padding-left: 112px;
+        height: 70px;
+        padding-top: 37px;
+    }
+    .push-page .section-2 .right .item.item-1 .icon {
+        width: 65px;
+        left: 8px;
+    }
+    .push-page .section-2 .right .item.item-2 .icon {
+        width: 76px;
+        left: 0;
+        top: 60px;
+    }
+    .push-page .section-2 .right .item.item-3 .icon {
+        width: 61px;
+        left: 10px;
+    }
+    .push-page .section-2 .right .item .text .title {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .push-page .section-2 .right .item .text .detail {
+        line-height: 1.75;
+        font-size: 14px;
+    }
+    .push-page .section-3 {
+        /*padding-bottom: 120px;*/
+    }
+    .push-page .section-3 .description {
+        height: 68px;
+        margin-top: 15px;
+    }
+    .push-page .section-3 .description .text {
+        font-size: 16px;
+    }
+    .push-page .section-3 .icon-group {
+        background: url("../images/push_target_line_2.png") no-repeat center 31px;
+        background-size: 552px 45px;
+        height: 246px;
+        width: 706px;
+    }
+    .push-page .section-3 .icon-group .icon {
+        width: 82px;
+        height: 82px;
+    }
+    .push-page .section-3 .icon-group .icon:after {
+        top: 90px;
+        left: -4px;
+        text-align: center;
+        font-size: 20px;
+        width: 90px;
+    }
+    .push-page .section-3 .icon-group .icon-1 {
+        left: 0;
+        top: 56px;
+    }
+    .push-page .section-3 .icon-group .icon-2 {
+        left: 208px;
+        top: 0;
+    }
+    .push-page .section-3 .icon-group .icon-3 {
+        right: 209px;
+        top: 0;
+    }
+    .push-page .section-3 .icon-group .icon-4 {
+        right: 0;
+        top: 56px;
+    }
+    .push-page .section-3 .icon-group .icon-1:after {
+        content: "广播推送";
+    }
+    .push-page .section-3 .icon-group .icon-2:after {
+        content: "标签推送";
+    }
+    .push-page .section-3 .icon-group .icon-3:after {
+        content: "别名推送";
+    }
+    .push-page .section-3 .icon-group .icon-4:after {
+        content: "用户分群";
+    }
+    .push-page .section-4 {
+    }
+    .push-page .section-4 .feature-list {
+        margin-top: 75px;
+        padding-bottom: 77px;
+    }
+    .push-page .section-4 .feature-list img {
+        width: 750px;
+    }
+    .push-page .section-4 .feature-list .item.item-1 {
+        top: 10px;
+        left: 110px;
+    }
+    .push-page .section-4 .feature-list .item.item-2 {
+        top: -20px;
+        right: 130px;
+    }
+    .push-page .section-4 .feature-list .item.item-3 {
+        top: 430px;
+        right: 0;
+    }
+    .push-page .section-4 .feature-list .item .title {
+        font-size: 22px;
+    }
+    .push-page .section-4 .feature-list .item .detail {
+        font-size: 15px;
+        line-height: 2;
+        margin-top: 14px;
+    }
+    .push-page .section-5 .detail {
+        font-size: 16px;
+        line-height: 1.5;
+        width: 600px;
+    }
+    .push-page .section-5 .more {
+        font-size: 14px;
+        margin-top: 26px;
+    }
+    .push-page .section-5 .pic {
+        margin-left: -100px;
+        margin-top: -30px;
+        margin-bottom: 25px;
+        width: 723px;
+    }
+    .push-page .section-5 .info {
+        font-size: 12px;
+        top: 410px;
+    }
+    .push-page .section-6 .icon-group {
+        margin-top: 40px;
+    }
+    .push-page .section-6 .icon-group .item {
+        width: 90px;
+    }
+    .push-page .section-6 .icon-group .item img {
+        width: 29px;
+    }
+    .push-page .section-6 .icon-group .item .title {
+        margin-bottom: 8px;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    .push-page .section-6 .icon-group .horizontal-line {
+        width: 90px;
+    }
+    .push-page .section-6 .feature-list {
+        height: 470px;
+    }
+    .push-page .section-6 .feature-list .item {
+        height: 470px;
+        width: 740px;
+        margin-left: -370px;
+    }
+    .push-page .section-6 .feature-list .text-box {
+        width: 370px;
+    }
+    .push-page .section-6 .feature-list .title {
+        font-size: 20px;
+        margin-bottom: 12px;
+        padding-top: 103px;
+    }
+    .push-page .section-6 .feature-list .detail {
+        font-size: 14px;
+        line-height: 2;
+        width: 280px;
+    }
+    .push-page .section-6 .feature-list .pic-box {
+        width: 370px;
+        text-align: center;
+    }
+    .push-page .section-6 .feature-list .item-1 .pic-box img {
+        width: 344px;
+        margin-top: 30px;
+    }
+    .push-page .section-6 .feature-list .item-2 .pic-box img {
+        width: 310px;
+        margin-top: 30px;
+    }
+    .push-page .section-7 .download-group {
+        height: 70px;
+        margin: 40px auto 0;
+        width: 820px;
+    }
+    .push-page .section-7 .download-group .item {
+        line-height: 70px;
+    }
+    .push-page .section-7 .download-group .item .display .icon {
+        bottom: -4px;
+    }
+    .push-page .section-7 .download-group .item .display .icon-1 {
+        width: 20px;
+    }
+    .push-page .section-7 .download-group .item .display .icon-2 {
+        width: 20px;
+    }
+    .push-page .section-7 .download-group .item .display .icon-3 {
+        width: 23px;
+    }
+    .push-page .section-7 .download-group .item .display .icon-4 {
+        width: 20px;
+    }
+    .push-page .section-7 .download-group .item .display .icon-5 {
+        width: 19px;
+    }
+    .push-page .section-7 .download-group .item .arrow {
+        top: 19px;
+        width: 31px;
+        height: 31px;
+        margin-left: -15.5px;
+    }
+    .push-page .section-7 .horizontal-line {
+        margin-top: 60px;
+    }
+    .push-page .section-7 .price-intro {
+        padding-bottom: 75px;
+        margin-top: 45px;
+    }
+    .push-page .section-7 .price-intro .item {
+        width: 229px;
+        padding-top: 25px;
+    }
+    .push-page .section-7 .price-intro .item .name {
+        font-size: 18px;
+    }
+    .push-page .section-7 .price-intro .item .separate-line {
+        width: 177px;
+        margin-top: 10px;
+    }
+    .push-page .section-7 .price-intro .item .list {
+        padding-left: 32px;
+    }
+    .push-page .section-7 .price-intro .item .list li {
+        height: 22px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        background-size: contain;
+    }
+    .push-page .section-7 .price-intro .item .list li .feature {
+        font-size: 12px;
+        padding-left: 37px;
+    }
+    .push-page .section-7 .price-intro .item .button {
+        width: 142px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .push-page .section-7 .title-price-detail {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .push-page .section-7 .arrowUp {
+        margin-bottom: 70px;
+    }
+    .push-page .section-7 .price-table .table-highlight {
+        height: 42px;
+    }
+    .push-page .section-7 .price-table .table-content {
+        margin-bottom: 53px;
+    }
+    .push-page .section-7 .price-table .table-content .comparison-table {
+        margin-top: -42px;
+    }
+    .push-page .section-7 .comparison-table thead th {
+        height: 42px;
+    }
+    .push-page .section-7 .comparison-table tbody td {
+        font-size: 12px;
+        line-height: 44px;
+    }
+    .push-page .section-7 .comparison-table .column-title {
+        font-size: 14px;
+    }
+    .push-page .section-7 .comparison-table tbody tr td.category-title .text {
+        font-size: 14px;
+    }
+
+
+
+    /**================================================IM================================================**/
+
+    .im-page .section-1 {
+        height: 370px;
+    }
+    .im-page .section-1 .title-1 {
+        font-size: 36px;
+        padding-top: 90px;
+        margin-bottom: 13px;
+    }
+    .im-page .section-1 .title-2 {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .im-page .section-1 .title-3 {
+        font-size: 14px;
+    }
+    .im-page .section-1 .title-3 .vertical-line {
+        height: 21px;
+        margin: 0 10px;
+    }
+    .im-page .section-1 .button {
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 36px;
+    }
+    .im-page .section-2 .j-center-block>.detail,
+    .im-page .section-3 .j-center-block>.detail,
+    .im-page .section-4 .j-center-block>.detail,
+    .im-page .section-5 .j-center-block>.detail {
+        line-height: 2;
+        font-size: 16px;
+        width: 680px;
+        margin-top: 13px;
+    }
+    .im-page .section-2 .j-center-block {
+        padding-bottom: 34px;
+    }
+    .im-page .section-2 .feature-list {
+        padding-top: 18px;
+    }
+    .im-page .section-2 .feature-list .item {
+        width: 210px;
+        margin-bottom: 28px;
+    }
+    .im-page .section-2 .feature-list .item .pic-wrapper {
+        height: 80px;
+        line-height: 80px;
+    }
+    .im-page .section-2 .feature-list .item.item-1 .pic-wrapper img {
+        width: 57px;
+    }
+    .im-page .section-2 .feature-list .item.item-2 .pic-wrapper img {
+        width: 69px;
+    }
+    .im-page .section-2 .feature-list .item.item-3 .pic-wrapper img {
+        width: 62px;
+    }
+    .im-page .section-2 .feature-list .item.item-4 .pic-wrapper img {
+        width: 57px;
+    }
+    .im-page .section-2 .feature-list .item.item-5 .pic-wrapper img {
+        width: 65px;
+    }
+    .im-page .section-2 .feature-list .item.item-6 .pic-wrapper img {
+        width: 57px;
+    }
+    .im-page .section-2 .feature-list .item.item-7 .pic-wrapper img {
+        width: 65px;
+    }
+    .im-page .section-2 .feature-list .item.item-8 .pic-wrapper img {
+        width: 58px;
+    }
+    .im-page .section-2 .feature-list .item .name {
+        font-size: 14px;
+        padding-top: 0;
+    }
+    .im-page .section-3 .feature-list {
+        height: 330px;
+        margin-top: 25px;
+    }
+    .im-page .section-3 .feature-list .icon {
+        width: 594px;
+    }
+    .im-page .section-3 .feature-list .center {
+        width: 124px;
+        left: 50%;
+        margin-left: -62px;
+        top: 65px;
+    }
+    .im-page .section-3 .feature-list .item .zh {
+        font-size: 14px;
+    }
+    .im-page .section-3 .feature-list .item .en {
+        font-size: 9px;
+    }
+    .im-page .section-3 .feature-list .item.item-1 {
+        left: 170px;
+        top: 32px;
+    }
+    .im-page .section-3 .feature-list .item.item-2 {
+        left: 170px;
+        top: 118px;
+    }
+    .im-page .section-3 .feature-list .item.item-3 {
+        left: 170px;
+        top: 203px;
+    }
+    .im-page .section-3 .feature-list .item.item-4 {
+        right: 170px;
+        top: 32px;
+    }
+    .im-page .section-3 .feature-list .item.item-5 {
+        right: 170px;
+        top: 118px;
+    }
+    .im-page .section-3 .feature-list .item.item-6 {
+        right: 170px;
+        top: 203px;
+    }
+    .im-page .section-4 img {
+        width: 324px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .im-page .section-5 img {
+        width: 665px;
+        margin-top: 50px;
+        margin-bottom: 79px;
+    }
+    .im-page .section-6 .icon-group {
+        margin-top: 40px;
+    }
+    .im-page .section-6 .icon-group .item {
+        width: 90px;
+    }
+    .im-page .section-6 .icon-group .item img {
+        width: 29px;
+    }
+    .im-page .section-6 .icon-group .item .title {
+        margin-bottom: 8px;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    .im-page .section-6 .icon-group .horizontal-line {
+        width: 90px;
+    }
+    .im-page .section-6 .feature-list {
+        height: 356px;
+    }
+    .im-page .section-6 .feature-list .item {
+        height: 356px;
+        width: 740px;
+        margin-left: -370px;
+    }
+    .im-page .section-6 .feature-list .text-box {
+        width: 370px;
+    }
+    .im-page .section-6 .feature-list .title {
+        font-size: 20px;
+        margin-bottom: 12px;
+        padding-top: 83px;
+    }
+    .im-page .section-6 .feature-list .detail {
+        font-size: 14px;
+        line-height: 2;
+        width: 280px;
+    }
+    .im-page .section-6 .feature-list .pic-box {
+        width: 370px;
+        text-align: center;
+    }
+    .im-page .section-6 .feature-list .item-1 .pic-box img {
+        width: 395px;
+        margin-top: 30px;
+    }
+    .im-page .section-6 .feature-list .item-2 .pic-box img {
+        width: 405.83px;
+        margin-top: 30px;
+    }
+    .im-page .section-7 .download-group {
+        height: 70px;
+        width: 495px;
+        margin: 40px auto 0;
+    }
+    .im-page .section-7 .download-group .item {
+        line-height: 70px;
+    }
+    .im-page .section-7 .download-group .item .display .icon {
+        bottom: -4px;
+    }
+    .im-page .section-7 .download-group .item .display .icon-1 {
+        width: 20px;
+    }
+    .im-page .section-7 .download-group .item .display .icon-2 {
+        width: 20px;
+    }
+    .im-page .section-7 .download-group .item .display .icon-3 {
+        width: 22px;
+    }
+    .im-page .section-7 .download-group .item .arrow {
+        top: 19px;
+        width: 31px;
+        height: 31px;
+        margin-left: -15.5px;
+    }
+    .im-page .section-7 .horizontal-line {
+        margin-top: 60px;
+    }
+    .im-page .section-7 .price-intro {
+        padding-bottom: 75px;
+        margin-top: 45px;
+    }
+    .im-page .section-7 .price-intro .item {
+        width: 229px;
+        padding-top: 25px;
+    }
+    .im-page .section-7 .price-intro .item .name {
+        font-size: 18px;
+    }
+    .im-page .section-7 .price-intro .item .separate-line {
+        width: 177px;
+        margin-top: 10px;
+    }
+    .im-page .section-7 .price-intro .item .list {
+        padding-left: 32px;
+    }
+    .im-page .section-7 .price-intro .item .list li {
+        height: 22px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        background-size: contain;
+    }
+    .im-page .section-7 .price-intro .item .list li .feature {
+        font-size: 12px;
+        padding-left: 37px;
+    }
+    .im-page .section-7 .price-intro .item .button {
+        width: 142px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .im-page .section-7 .title-price-detail {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .im-page .section-7 .arrowUp {
+        margin-bottom: 70px;
+    }
+    .im-page .section-7 .price-table .table-highlight {
+        height: 42px;
+    }
+    .im-page .section-7 .price-table .table-content {
+        margin-bottom: 53px;
+    }
+    .im-page .section-7 .price-table .table-content .comparison-table {
+        margin-top: -42px;
+    }
+    .im-page .section-7 .comparison-table thead th {
+        height: 42px;
+    }
+    .im-page .section-7 .comparison-table tbody td {
+        font-size: 12px;
+        line-height: 44px;
+    }
+    .im-page .section-7 .comparison-table .column-title {
+        font-size: 14px;
+    }
+    .im-page .section-7 .comparison-table tbody tr td.category-title .text {
+        font-size: 14px;
+    }
+
+    /**================================================短信================================================**/
+
+    .sms-page .section-1 {
+        height: 545px;
+    }
+    .sms-page .section-1 .title {
+        font-size: 36px;
+        padding-top: 58px;
+        margin-bottom: 35px;
+    }
+    .sms-page .section-1 .modal-wrapper {
+        width: 866px;
+        height: 538px;
+    }
+    .sms-page .section-1 .modal-wrapper .part-1,
+    .sms-page .section-1 .modal-wrapper .part-3 {
+        width: 250px;
+    }
+    .sms-page .section-1 .modal-wrapper .part-1 {
+        padding-top: 78px;
+    }
+    .sms-page .section-1 .modal-wrapper .part-3 {
+        padding-top: 107px;
+    }
+    .sms-page .section-1 .modal-wrapper .part-2 {
+        width: 366px;
+    }
+    .sms-page .section-1 .modal-wrapper .part-2 .txt-box {
+        height: 340px;
+        top:98px;
+    }
+    /*手机的动效：*/
+    .sms-page .section-1 .modal-wrapper .part-2 .txt-box .pic {
+        width: 200px;
+        left: 50%;
+        margin-left: -100px;
+        top: 550px;
+    }
+    /*icon文字说明*/
+    .sms-page .section-1 .modal-wrapper .part .item {
+        margin-bottom: 23px;
+    }
+    .sms-page .section-1 .modal-wrapper .part .text {
+        font-size: 18px;
+    }
+    .sms-page .section-1 .modal-wrapper .part .icon {
+        height: 47px;
+        width: 47px;
+        /*background-size: 100%;*/
+    }
+    .sms-page .section-1 .modal-wrapper .part-1 .icon {
+        margin-left: 3px;
+    }
+    .sms-page .section-1 .modal-wrapper .part-3 .icon {
+        margin-right: 3px;
+    }
+    .sms-page .section-2 {
+        padding-top: 133px;
+    }
+    .sms-page .section-2 .j-title-box {
+        margin-top: -50px;
+    }
+    .sms-page .section-2 .item {
+        width: 210px;
+    }
+    .sms-page .section-2 .item .pic-wrapper {
+        height: 80px;
+        line-height: 80px;
+        margin: 70px auto 34px;
+    }
+    .sms-page .section-2 .item.item-1 .pic-wrapper img {
+        width: 79px;
+    }
+    .sms-page .section-2 .item.item-2 .pic-wrapper img {
+        width: 74px;
+    }
+    .sms-page .section-2 .item.item-3 .pic-wrapper img {
+        width: 78px;
+    }
+    .sms-page .section-2 .item.item-4 .pic-wrapper img {
+        width: 78px;
+    }
+    .sms-page .section-2 .item .title {
+        font-size: 18px;
+    }
+    .sms-page .section-2 .item .detail {
+        font-size: 14px;
+        width: 170px;
+        line-height: 1.875;
+        margin: 10px auto 0;
+    }
+    .sms-page .section-2 .horizontal-line {
+        margin-top: 60px;
+    }
+    .sms-page .section-3 .download-group {
+        height: 70px;
+        width: 495px;
+        margin: 40px auto 118px;
+    }
+    .sms-page .section-3 .download-group .item {
+        line-height: 70px;
+    }
+    .sms-page .section-3 .download-group .item .display .icon {
+        bottom: -4px;
+    }
+    .sms-page .section-3 .download-group .item .display .icon-1 {
+        width: 20px;
+    }
+    .sms-page .section-3 .download-group .item .display .icon-2 {
+        width: 20px;
+    }
+    .sms-page .section-3 .download-group .item .display .icon-3 {
+        width: 22px;
+    }
+    .sms-page .section-3 .download-group .item .arrow {
+        top: 19px;
+        width: 31px;
+        height: 31px;
+        margin-left: -15.5px;
+    }
+
+    /**================================================极光 统计 analytics================================================**/
+    .analytics-page .section-1 {
+        height: 370px;
+    }
+    .analytics-page .section-1 .title-1 {
+        font-size: 36px;
+        padding-top: 90px;
+        margin-bottom: 13px;
+    }
+    .analytics-page .section-1 .title-2 {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .analytics-page .section-1 .title-3 {
+        font-size: 14px;
+    }
+    .analytics-page .section-1 .title-3 .vertical-line {
+        height: 21px;
+        margin: 0 10px;
+    }
+    .analytics-page .section-1 .button {
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 36px;
+    }
+    .analytics-page .section-2 .j-center-block {
+        padding-bottom: 65px;
+    }
+    .analytics-page .section-2 .feature-list {
+        padding-top: 61px;
+    }
+    .analytics-page .section-2 .feature-list .item {
+        width: 280px;
+        margin-bottom: 36px;
+        padding-left: 120px;
+    }
+    .analytics-page .section-2 .feature-list .item .icon {
+        width: 83px;
+        left: 20px;
+    }
+    .analytics-page .section-2 .feature-list .item .title {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+    }
+    .analytics-page .section-2 .feature-list .item .detail {
+        font-size: 14px;
+        width: 150px;
+    }
+    .analytics-page .section-3 {
+        padding-top: 55px;
+        padding-bottom: 35px;
+        height: 400px;
+    }
+    .analytics-page .section-3 .left {
+        padding-right: 160px;
+        padding-top: 0;
+    }
+    .analytics-page .section-3 .left .detail {
+        line-height: 1.75;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .analytics-page .section-3 .right {
+        width: 120px;
+    }
+    .analytics-page .section-3 .right .img-list {
+        height: 400px;
+    }
+    .analytics-page .section-3 .right .img-demo {
+        width: 370px;
+        right: -38px;
+        top: 72px;
+    }
+    .analytics-page .section-3 .right .text {
+        font-size: 14px;
+    }
+    .analytics-page .section-3 .right .text-1 {
+        top: 58px;
+        margin-left: -3px;
+    }
+    .analytics-page .section-3 .right .text-2 {
+        top: 165px;
+        margin-left: -30px;
+    }
+    .analytics-page .section-3 .right .text-3 {
+        top: 267px;
+        margin-left: 0;
+    }
+    .analytics-page .section-4 {
+        height: 600px;
+    }
+    .analytics-page .section-4 .detail {
+        font-size: 16px;
+        margin: 10px auto 0;
+    }
+    .analytics-page .section-4 img {
+        margin-top: 63px;
+        margin-bottom: 0;
+        width: 724px;
+    }
+    .analytics-page .section-5 .icon-group {
+        margin-top: 30px;
+    }
+    .analytics-page .section-5 .icon-group .item {
+        width: 90px;
+    }
+    .analytics-page .section-5 .icon-group .item-1 img {
+        width: 29px;
+    }
+    .analytics-page .section-5 .icon-group .item-2 img {
+        width: 21px;
+    }
+    .analytics-page .section-5 .icon-group .item-3 img {
+        width: 24px;
+    }
+    .analytics-page .section-5 .icon-group .item .title {
+        margin-bottom: 8px;
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    .analytics-page .section-5 .icon-group .horizontal-line {
+        width: 90px;
+    }
+    .analytics-page .section-5 .feature-list {
+        height: 413px;
+    }
+    .analytics-page .section-5 .feature-list .item {
+        height: 443px;
+        width: 740px;
+        margin-left: -370px;
+    }
+    .analytics-page .section-5 .feature-list .text-box {
+        width: 370px;
+    }
+    .analytics-page .section-5 .feature-list .title {
+        font-size: 20px;
+        margin-bottom: 12px;
+        padding-top: 107px;
+    }
+    .analytics-page .section-5 .feature-list .detail {
+        font-size: 14px;
+        line-height: 2;
+        width: 270px;
+    }
+    .analytics-page .section-5 .feature-list .pic-box {
+        width: 370px;
+        text-align: center;
+    }
+    .analytics-page .section-5 .feature-list .item-1 .pic-box img {
+        width: 260px;
+        margin-top: 54px;
+    }
+    .analytics-page .section-5 .feature-list .item-2 .pic-box img {
+        width: 349px;
+        margin-top: 39px;
+    }
+    .analytics-page .section-5 .feature-list .item-3 .pic-box img {
+        width: 310px;
+        margin-top: 35px;
+    }
+    .analytics-page .section-7 .download-group {
+        height: 70px;
+        width: 330px;
+        margin: 40px auto 118px;
+    }
+    .analytics-page .section-7 .download-group .item {
+        line-height: 70px;
+    }
+    .analytics-page .section-7 .download-group .item .display .icon {
+        bottom: -4px;
+    }
+    .analytics-page .section-7 .download-group .item .display .icon-1 {
+        width: 20px;
+    }
+    .analytics-page .section-7 .download-group .item .display .icon-2 {
+        width: 20px;
+    }
+    /*.analytics-page .section-7 .download-group .item .display .icon-3 {*/
+        /*width: 22px;*/
+    /*}*/
+    .analytics-page .section-7 .download-group .item .arrow {
+        top: 19px;
+        width: 31px;
+        height: 31px;
+        margin-left: -15.5px;
+    }
+
+
+    /**================================================极光 分享 share================================================**/
+    .share-page .section-1 {
+        height: 370px;
+    }
+    .share-page .section-1 .title-1 {
+        font-size: 36px;
+        padding-top: 90px;
+        margin-bottom: 13px;
+    }
+    .share-page .section-1 .title-2 {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .share-page .section-1 .title-3 {
+        font-size: 14px;
+    }
+    .share-page .section-1 .title-3 .vertical-line {
+        height: 21px;
+        margin: 0 10px;
+    }
+    .share-page .section-1 .button {
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 36px;
+    }
+    .share-page .section-2 {
+        height: 550px;
+    }
+    .share-page .section-2 .j-center-block>.detail {
+        line-height: 2;
+        font-size: 16px;
+        margin-top: 13px;
+    }
+    .share-page .section-2 .circle {
+        margin-left: -51px;
+        bottom: 200px;
+        width: 102px;
+    }
+    .share-page .section-2 .circle-text {
+        font-size: 16px;
+        bottom: 287px;
+    }
+    .share-page .section-2 .icons {
+        height: 209px;
+        width: 744px;
+        margin-left: -372px;
+        background: url("../images/share_feature_icons_1366_2.svg") no-repeat center bottom;
+    }
+    .share-page .section-2 .color-cover {
+        height: 131px;
+        background: url("../fonts/share_feature_vertical_1366_2.svg") repeat-x;
+    }
+    .share-page .section-2 .color-cover .white-cover {
+        width: 744px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item {
+        font-size: 14px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item.item-1 {
+        margin-left: -323px;
+        bottom: 95px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item.item-2 {
+        margin-left: -248px;
+        bottom: 89px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item.item-3 {
+        margin-left: -145px;
+        bottom: 78px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item.item-4 {
+        margin-left: -10px;
+        bottom: 95px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item.item-5 {
+        margin-left: 102px;
+        bottom: 75px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item.item-6 {
+        margin-left: 220px;
+        bottom: 97px;
+    }
+    .share-page .section-2 .color-cover .icon-text-group .item.item-7 {
+        margin-left: 295px;
+        bottom: 88px;
+    }
+    .share-page .section-5 .j-center-block{
+        height: 525px;
+    }
+    .share-page .section-5 .feature-list {
+        margin-top: 30px;
+    }
+    .share-page .section-5 .feature-list .item {
+        height: 150px;
+        padding-top: 40px;
+        padding-left: 186px;
+    }
+    .share-page .section-5 .feature-list .item.item-1 img {
+        left: 82px;
+        top: 42px;
+        width: 74px;
+    }
+    .share-page .section-5 .feature-list .item.item-2 img {
+        left: 77px;
+        top: 45px;
+        width: 75px;
+    }
+    .share-page .section-5 .feature-list .item.item-3 img {
+        left: 79px;
+        top: 50px;
+        width: 82px;
+    }
+    .share-page .section-5 .feature-list .item.item-4 img {
+        left: 86px;
+        top: 45px;
+        width: 52px;
+    }
+    .share-page .section-5 .feature-list .item .title {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .share-page .section-5 .feature-list .item .detail {
+        width: 170px;
+        font-size: 14px;
+    }
+    .share-page .section-7 .download-group {
+        height: 70px;
+        width: 330px;
+        margin: 40px auto 118px;
+    }
+    .share-page .section-7 .download-group .item {
+        line-height: 70px;
+    }
+    .share-page .section-7 .download-group .item .display .icon {
+        bottom: -4px;
+    }
+    .share-page .section-7 .download-group .item .display .icon-1 {
+        width: 20px;
+    }
+    .share-page .section-7 .download-group .item .display .icon-2 {
+        width: 20px;
+    }
+    .share-page .section-7 .download-group .item .arrow {
+        top: 19px;
+        width: 31px;
+        height: 31px;
+        margin-left: -15.5px;
+    }
+    /**================================================极光数谱================================================**/
+    .datatrum-page .section-1 {
+        height: 567px;
+    }
+    .datatrum-page .section-1 .title-1  {
+        font-size: 43px;
+        padding-top: 70px;
+        margin: 0 auto 25px;
+    }
+    .datatrum-page .section-1 .title-2  {
+        font-size: 38px;
+    }
+    .datatrum-page .section-1 img {
+        margin-top: 80px;
+        width: 815px;
+    }
+    .datatrum-page .section-2 {
+        padding-top: 80px;
+    }
+    .datatrum-page .section-2 .feature-list {
+        margin: 55px auto 0;
+        padding-bottom: 40px;
+    }
+    .datatrum-page .section-2 .item {
+        width: 340px;
+        height: 296px;
+        padding: 25px 27px 37px;
+        margin: 8px 6px;
+    }
+    .datatrum-page .section-2 .item .icon-wrapper {
+        height: 96px;
+        line-height: 96px;
+    }
+    .datatrum-page .section-2 .item:nth-child(1) img {
+        width: 86px;
+    }
+    .datatrum-page .section-2 .item:nth-child(2) img {
+        width: 83px;
+    }
+    .datatrum-page .section-2 .item:nth-child(3) img {
+        width: 94px;
+    }
+    .datatrum-page .section-2 .item:nth-child(4) img {
+        width: 97px;
+    }
+    .datatrum-page .section-2 .item .icon-wrapper img {
+        vertical-align: middle;
+    }
+    .datatrum-page .section-2 .item .title {
+        font-size: 20px;
+        margin-top: 11px;
+        margin-bottom: 18px;
+    }
+    .datatrum-page .section-2 .item .detail {
+        font-size: 14px;
+    }
+    .datatrum-page .section-3 .customer-list {
+        width: 740px;
+        margin: 30px auto 130px;
+    }
+    .datatrum-page .section-3 .customer-list .item {
+        width: 136px;
+        height: 136px;
+        margin: 5px;
+    }
+    .datatrum-page .section-3 .customer-list .item .logo {
+        width: 120px;
+        height: 37.5px;
+        margin: 50px auto 0;
+        background-size: 120px 225px;
+    }
+    .datatrum-page .section-3 .customer-list .item.item-1 .logo {
+        background-position: 0 0;
+    }
+    .datatrum-page .section-3 .customer-list .item.item-2 .logo {
+        background-position: 0 -37.5px;
+    }
+    .datatrum-page .section-3 .customer-list .item.item-3 .logo {
+        background-position: 0 -75px;
+    }
+    .datatrum-page .section-3 .customer-list .item.item-4 .logo {
+        background-position: 0 -112.5px;
+    }
+    .datatrum-page .section-3 .customer-list .item.item-5 .logo {
+        background-position: 0 -150px;
+    }
+    .datatrum-page .section-3 .customer-list .item.item-6 .logo {
+        background-position: 0 -187.5px;
+    }
+
+
+    /**================================================iapp样式================================================**/
+    .iapp-page .section-1 {
+        height: 370px;
+    }
+    .iapp-page .section-1 .bg-wrapper {
+        height: 370px;
+    }
+    .iapp-page .section-1 .bg-wrapper .slide-page {
+        height: 370px;
+    }
+    .iapp-page .section-1 .text-wrapper {
+        height: 370px;
+    }
+    .iapp-page .section-1 .text-wrapper .title-group .item {
+        padding-top: 90px;
+    }
+    .iapp-page .section-1 .text-wrapper .title-group .item .title-top {
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    .iapp-page .section-1 .text-wrapper .title-group .item .title-sub {
+        font-size: 16px;
+    }
+    .iapp-page .section-1 .text-wrapper .try-out {
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 36px;
+        left: 50%;
+        margin-left: -71px;
+        top: 209px;
+    }
+    .iapp-page .section-1 .slick-dots {
+        bottom: 12px;
+    }
+    .iapp-page .section-1 .slick-dots li {
+        margin: 0 8px;
+    }
+    .iapp-page .section-1 .slick-dots li button:before {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .iapp-page .section-2 {
+        padding-bottom: 60px;
+    }
+    .iapp-page .section-2 .item {
+        width: 210px;
+    }
+    .iapp-page .section-2 .item .pic-wrapper {
+        height: 80px;
+        line-height: 80px;
+        margin: 70px auto 34px;
+    }
+    .iapp-page .section-2 .item.item-1 .pic-wrapper img {
+        width: 70px;
+    }
+    .iapp-page .section-2 .item.item-2 .pic-wrapper img {
+        width: 75px;
+    }
+    .iapp-page .section-2 .item.item-3 .pic-wrapper img {
+        width: 75px;
+    }
+    .iapp-page .section-2 .item.item-4 .pic-wrapper img {
+        width: 77px;
+    }
+    .iapp-page .section-2 .item .title {
+        font-size: 18px;
+    }
+    .iapp-page .section-2 .item .detail {
+        font-size: 14px;
+        width: 170px;
+        line-height: 1.875;
+        margin: 10px auto 0;
+    }
+    .iapp-page .section-feature .text-wrapper {
+        width: 375px;
+    }
+    .iapp-page .section-feature .pic-wrapper {
+        width: 376px;
+    }
+    .iapp-page .section-feature .title {
+        font-size: 20px;
+    }
+    .iapp-page .section-feature .horizontal-line {
+        height: 2px;
+        width: 25px;
+        margin-top: 16px;
+        margin-bottom: 7px;
+    }
+    .iapp-page .section-feature .sub-title {
+        font-size: 18px;
+        margin-bottom: 2px;
+        line-height: 1.8;
+    }
+    .iapp-page .section-feature .detail {
+        font-size: 14px;
+        line-height: 2.25
+    }
+    .iapp-page .section-3 .feature-wrapper {
+        padding-top: 34px;
+        padding-bottom: 69px;
+    }
+    .iapp-page .section-3 .text-wrapper {
+        padding-top: 85px;
+    }
+    .iapp-page .section-3 .pic-wrapper {
+    }
+    .iapp-page .section-3 .pic-wrapper img {
+        width: 335px;
+    }
+    .iapp-page .section-4 .feature-wrapper {
+        padding-top: 84px;
+        padding-bottom: 15px;
+    }
+    .iapp-page .section-4 .text-wrapper {
+        padding-top: 55px;
+    }
+    .iapp-page .section-4 .pic-wrapper {
+    }
+    .iapp-page .section-4 .pic-wrapper img {
+        width: 380px;
+    }
+    .iapp-page .section-5 .text-wrapper {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .iapp-page .section-5 .title {
+        font-size: 20px;
+    }
+    .iapp-page .section-5 .horizontal-line {
+        height: 2px;
+        width: 25px;
+        margin-top: 16px;
+        margin-bottom: 7px;
+    }
+    .iapp-page .section-5 .sub-title {
+        font-size: 18px;
+        margin-bottom: 0;
+        line-height: 1.8;
+    }
+    .iapp-page .section-5 .detail {
+        font-size: 14px;
+        line-height: 2.25
+    }
+    .iapp-page .section-5 .pic-wrapper .bg {
+        width: 675px;
+        margin-bottom: -4px;
+        margin-left: -70px;
+    }
+    .iapp-page .section-5 .pic-wrapper .icon {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+    }
+    .iapp-page .section-5 .pic-wrapper .icon.icon-1 {
+        top: 49px;
+    }
+    .iapp-page .section-5 .pic-wrapper .icon.icon-2 {
+        top: 140px;
+    }
+    .iapp-page .section-5 .pic-wrapper .icon.icon-3 {
+        top: 231px;
+    }
+    .iapp-page .section-6 .feature-wrapper {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    .iapp-page .section-6 .text-wrapper {
+        padding-top: 52px;
+    }
+    .iapp-page .section-6 .pic-wrapper img {
+        margin-left: -50px;
+        width: 415px;
+    }
+    .iapp-page .section-7 .customer-list {
+        width: 740px;
+        margin: 30px auto 130px;
+    }
+    .iapp-page .section-7 .customer-list .item {
+        width: 136px;
+        height: 136px;
+        margin: 5px;
+    }
+    .iapp-page .section-7 .customer-list .item .logo {
+        width: 120px;
+        height: 37.5px;
+        margin: 50px auto 0;
+        background-size: 120px 262.5px;
+        background-image: url("../images/iapp_customer_logo_2.png");
+    }
+    .iapp-page .section-7 .customer-list .item.item-1 .logo {
+        background-position: 0 0;
+    }
+    .iapp-page .section-7 .customer-list .item.item-2 .logo {
+        background-position: 0 -37.5px;
+    }
+    .iapp-page .section-7 .customer-list .item.item-3 .logo {
+        background-position: 0 -75px;
+    }
+    .iapp-page .section-7 .customer-list .item.item-4 .logo {
+        background-position: 0 -112.5px;
+    }
+    .iapp-page .section-7 .customer-list .item.item-5 .logo {
+        background-position: 0 -150px;
+    }
+    .iapp-page .section-7 .customer-list .item.item-6 .logo {
+        background-position: 0 -187.5px;
+    }
+    .iapp-page .section-7 .customer-list .item.item-7 .logo {
+        background-position: 0 -225px;
+    }
+
+    /**================================================反欺诈 样式================================================**/
+    .fraud-page .section-1 {
+        height: 370px;
+    }
+    .fraud-page .section-1 .title-1 {
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    .fraud-page .section-1 .title-2 {
+        font-size: 16px;
+    }
+    .fraud-page .section-1 .try-out {
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 16px;
+        margin-top: 36px;
+        left: 50%;
+        margin-left: -71px;
+        top: 209px;
+    }
+    .fraud-page .section-2 .j-center-block {
+        padding-bottom: 70px;
+    }
+    .fraud-page .section-2 .item {
+        width: 210px;
+    }
+    .fraud-page .section-2 .item .pic-wrapper {
+        height: 80px;
+        line-height: 80px;
+        margin: 70px auto 34px;
+    }
+    .fraud-page .section-2 .item.item-1 .pic-wrapper img {
+        width: 75px;
+    }
+    .fraud-page .section-2 .item.item-2 .pic-wrapper img {
+        width: 75px;
+    }
+    .fraud-page .section-2 .item.item-3 .pic-wrapper img {
+        width: 72px;
+    }
+    .fraud-page .section-2 .item.item-4 .pic-wrapper img {
+        width: 76px;
+    }
+    .fraud-page .section-2 .item .title {
+        font-size: 18px;
+    }
+    .fraud-page .section-content {
+        height: 440px;
+    }
+    .fraud-page .section-content .text-wrapper {
+        padding-top: 150px;
+    }
+    .fraud-page .section-content .pic-wrapper {
+        height: 440px;
+        line-height: 440px;
+        width: 460px;
+    }
+    .fraud-page .section-content .text-wrapper .title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .fraud-page .section-content .text-wrapper .detail {
+        font-size: 14px;
+        line-height: 2.25;
+    }
+    .fraud-page .section-content:nth-child(2n+1) .text-wrapper {
+        width: 270px;
+        padding-right: 10px;
+    }
+    .fraud-page .section-content:nth-child(2n+1) .pic-wrapper {
+        padding-left: 25px;
+    }
+    .fraud-page .section-content:nth-child(2n) .text-wrapper {
+        width: 276px;
+        padding-left: 58px;
+    }
+    .fraud-page .section-content:nth-child(2n) .pic-wrapper {
+        padding-right: 25px;
+    }
+    .fraud-page .section-content.section-3 .pic-wrapper img {
+        width: 332px;
+    }
+    .fraud-page .section-content.section-4 .pic-wrapper img {
+        width: 515px;
+    }
+    .fraud-page .section-content.section-5 .pic-wrapper img {
+        width: 450px;
+    }
+    .fraud-page .section-content.section-6 .pic-wrapper img {
+        width: 458px;
+    }
+    .fraud-page .section-content.section-7 .pic-wrapper img {
+        width: 328px;
+    }
+    .fraud-page .section-8 .customer-list {
+        width: 740px;
+        margin: 30px auto 130px;
+    }
+    .fraud-page .section-8 .customer-list .item {
+        width: 136px;
+        height: 136px;
+        margin: 5px;
+    }
+    .fraud-page .section-8 .customer-list .item .logo {
+        width: 120px;
+        height: 37.5px;
+        margin: 50px auto 0;
+        background-size: 120px 262.5px;
+    }
+    .fraud-page .section-8 .customer-list .item.item-1 .logo {
+        background-position: 0 0;
+    }
+    .fraud-page .section-8 .customer-list .item.item-2 .logo {
+        background-position: 0 -37.5px;
+    }
+    .fraud-page .section-8 .customer-list .item.item-3 .logo {
+        background-position: 0 -75px;
+    }
+    .fraud-page .section-8 .customer-list .item.item-4 .logo {
+        background-position: 0 -112.5px;
+    }
+    .fraud-page .section-8 .customer-list .item.item-5 .logo {
+        background-position: 0 -150px;
+    }
+    .fraud-page .section-8 .customer-list .item.item-6 .logo {
+        background-position: 0 -187.5px;
+    }
+    .fraud-page .section-8 .customer-list .item.item-7 .logo {
+        background-position: 0 -225px;
+    }
+    .fraud-page .section-9.section-business .link-list .item {
+        margin: 0 30px;
+    }
+
+    /**================================================ 数据报告 - 列表 ================================================**/
+    .d-report-list-page .section-1 {
+        height: 207px;
+        /*line-height: 207px;*/
+        /*font-size: 36px;*/
+    }
+    .d-report-list-page .section-1 .title {
+        font-size: 36px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .d-report-list-page .section-1 .separate-line {
+        width: 3px;
+        height: 35px;
+        top: 6px;
+        margin: 0 2px;
+    }
+    .d-report-list-page .section-1 .sub-title {
+        font-size: 16px;
+        width: 700px;
+    }
+    .d-report-list-page .section-2 {
+        padding-bottom: 90px;
+    }
+    .d-report-list-page .section-2 .j-center-block {
+        width: 1000px;
+    }
+    .d-report-list-page .section-2 .report-list {
+        width: 940px;
+        padding-top: 54px;
+    }
+    .d-report-list-page .section-2 .item {
+        padding: 6px 7px;
+        width: 296px;
+        margin: 10px 6px;
+    }
+    .d-report-list-page .section-2 .item .pic-box {
+        height: 138px;
+    }
+    .d-report-list-page .section-2 .item .date-box {
+        font-size: 10px;
+        height: 23px;
+        line-height: 25px;
+    }
+    .d-report-list-page .section-2 .item .date-box img {
+        width: 13px;
+        margin-left: 6px;
+        margin-right: 2px;
+        vertical-align: -2px;
+    }
+    .d-report-list-page .section-2 .item .title {
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        margin: 6px 5px 0;
+    }
+    .d-report-list-page .section-2 .item .title img {
+        width: 31px;
+        vertical-align: middle;
+    }
+    .d-report-list-page .section-2 .item .detail {
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 0 5px;
+    }
+    .d-report-list-page .section-2 .item .btn-open {
+        margin: 12px 5px 10px 5px;
+    }
+    .d-report-list-page .section-2 .item .btn-open:hover {
+        background-color: #60af84;
+        border: 1px solid #59a57b;
+    }
+    .d-report-list-page .section-2 .item.page-2 {
+        display: none;
+    }
+    .d-report-list-page .section-2 .pager-wrapper {
+        padding-bottom: 56px;
+        padding-top: 25px;
+    }
+    .d-report-list-page .section-2 .pager-wrapper li {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 1px solid #e1e1e1;
+        cursor: pointer;
+        font-size: 14px;
+        color: #3a3a3a;
+        line-height: 32px;
+        background-color: white;
+        margin: 0 2px;
+    }
+    .d-report-list-page .section-2 .pager-wrapper li.active {
+        background-color: #54ab7d;
+        border: 1px solid #49996f;
+        color: white;
+    }
+    .d-report-list-page .section-2 .pager-wrapper li.pager-nav img {
+        width: 9px;
+    }
+
+
+
+    /**================================================ 数据报告 - 详情 ================================================**/
+    .d-report-detail-page .report-box {
+        margin: 0 226px 0 68px;
+    }
+    .d-report-detail-page .report-box .main-content {
+        padding: 20px 25px 20px;
+    }
+    .d-report-detail-page .report-box .main-content .title {
+        font-size: 20px;
+    }
+    .d-report-detail-page .report-box .main-content .stat-list {
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+    .d-report-detail-page .report-box .main-content .stat-list .item {
+        margin-right: 25px;
+        font-size: 12px;
+    }
+    .d-report-detail-page .report-box .main-content .stat-list .item .detail {
+        vertical-align: 2px;
+    }
+    .d-report-detail-page .report-box .intro-box {
+        margin-top:20px;
+    }
+    .d-report-detail-page .report-box .intro-box .item.item-1 img {
+        width: 185px;
+    }
+    .d-report-detail-page .report-box .intro-box .item.item-1 .info {
+        padding-left: 14px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .d-report-detail-page .report-box .intro-box .item.item-2 .info {
+        font-size: 16px;
+    }
+    .d-report-detail-page .report-box .intro-box .item.item-3 img {
+        width: 124px;
+    }
+    .d-report-detail-page .report-box .intro-box .item.item-3 .info {
+        font-size: 12px;
+        letter-spacing: 5px;
+        padding-left: 5px;
+    }
+    .d-report-detail-page .sns-box {
+        width: 68px;
+        height: 200px;
+        top: 70px;
+    }
+    .d-report-detail-page .link-box {
+        width: 226px;
+        padding-left: 20px;
+    }
+    .d-report-detail-page .link-box .contact-title,
+    .d-report-detail-page .link-box .new-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .d-report-detail-page .link-box .contact-info {
+        font-size: 13px;
+        line-height: 2.4;
+    }
+    .d-report-detail-page .link-box .horizontal-line {
+        height: 1px;
+        margin: 29px 0 25px;
+    }
+    .d-report-detail-page .link-box .new-list {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+    .d-report-detail-page .link-box .new-list .item {
+        margin-bottom: 22px;
+    }
+    .d-report-detail-page .link-box .new-list .item .title {
+        width: 210px;
+    }
+    .d-report-detail-page .report-box .main-content .slide-list {
+        line-height: 2;
+    }
+
+    /**================================================公司介绍================================================**/
+    .about-page .section-one {
+        height: 360px;
+        line-height: 360px;
+        font-size: 48px;
+    }
+    .about-page .section-two {
+        padding-bottom: 60px;
+    }
+    .about-page .section-two .j-title-box {
+        margin-bottom: 30px;
+    }
+    .about-page .section-two .description {
+        width: 850px;
+        height: 1200px;
+    }
+    .about-page .section-two .description .item {
+        width: 425px;
+    }
+    .about-page .section-two .description .item-1 {
+        top: 90px;
+    }
+    .about-page .section-two .description .item-2 {
+        top: 275px;
+    }
+    .about-page .section-two .description .item-3 {
+        top: 460px;
+    }
+    .about-page .section-two .description .item-4 {
+        top: 645px;
+    }
+    .about-page .section-two .description .item-5 {
+        top: 830px;
+    }
+    .about-page .section-two .description .item-6 {
+        top: 1015px;
+    }
+    .about-page .section-two .description .item .text-wrapper .year {
+        font-size: 34px;
+    }
+    .about-page .section-two .description .item .text-wrapper .detail {
+        font-size: 12px;
+    }
+    .about-page .section-two .description .item .pic {
+        height: 66px;
+    }
+    .about-page .section-two .description .item-right .pic {
+        left: -41.25px;
+    }
+    .about-page .section-two .description .item-left .pic {
+        right: -41.25px;
+    }
+    .about-page .section-two .description .item .dot {
+        height: 11px;
+        width: 11px;
+        top: -5.5px;
+    }
+    .about-page .section-two .description .item .horizontal-line {
+        width: 275px;
+        top: 33px;
+    }
+    .about-page .section-two .description .item-left .horizontal-line {
+        right: 41.25px;
+    }
+    .about-page .section-two .description .item-right .horizontal-line {
+        left: 41.25px;
+    }
+    .about-page .section-two .description .top-dot {
+        width: 11px;
+        height: 11px;
+        margin-left: -5.5px;
+    }
+    .about-page .section-two .description .vertical-line {
+        width: 4px;
+        margin-left: -2px;
+    }
+    .about-page .section-3 .title {
+        font-size: 38px;
+        padding-top: 60px;
+    }
+    .about-page .section-3 img {
+        width: 136px;
+        margin: 0 28px 75px;
+    }
+    .about-page .section-3 .detail {
+        font-size: 14px;
+        width: 550px;
+        margin: 12px auto 33px;
+    }
+
+    /**================================================联系方式================================================**/
+    .contact-page .section-one {
+        min-height: 600px;
+    }
+    .contact-page .section-one .description {
+        height: 350px;
+        min-height: 350px;
+    }
+    .contact-page .section-one .description .right .sub-title {
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding-top: 2vh;
+    }
+    .contact-page .section-one .description .right .sub-list {
+        line-height: 2.0;
+    }
+
+    /**================================================用户协议================================================**/
+    .license-page .section-1 {
+        height: 207px;
+        line-height: 207px;
+        font-size: 36px;
+    }
+    .license-page .section-1 .separate-line {
+        width: 3px;
+        height: 35px;
+        top: 6px;
+        margin: 0 2px;
+    }
+    .license-page .section-2 .j-center-block{
+        font-size: 12px;
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+    .license-page .section-2 .item {
+        margin-top: 20px;
+    }
+    .license-page .section-2 .sub-title {
+        font-size: 16px;
+    }
+
+
+    /**================================================ 免责协议 opt-out ================================================**/
+
+    .disclaimer-page .section-1 {
+        height: 207px;
+    }
+    .disclaimer-page .section-1 .title-1 {
+        font-size: 38px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .disclaimer-page .section-1 .title-2 {
+        font-size: 16px;
+        width: 740px;
+    }
+    .disclaimer-page .section-1 .separate-line {
+        width: 3px;
+        height: 35px;
+        top: 6px;
+        margin: 0 2px;
+    }
+    .disclaimer-page .section-2 .disclaim-content {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .disclaimer-page .section-2 .disclaim-content .title {
+        font-size: 14px;
+        padding-bottom: 4px;
+    }
+    .disclaimer-page.disclaimer-en-page .section .disclaim-content .title {
+        font-size: 13px;
+    }
+    .disclaimer-page .section-2 .disclaim-content .detail {
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    .disclaimer-page.disclaimer-en-page .section .disclaim-content .detail {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+    .disclaimer-page .section-2 .imei-box {
+        padding-top: 20px;
+        height: 100px;
+    }
+    .disclaimer-page .section-2 .imei-box .input-wrapper {
+        padding-top: 6px;
+        padding-left: 1px;
+        display: inline-block;
+        width: 602px;
+        height: 56px;
+        border-radius: 22px;
+        overflow: hidden;
+        position: relative;
+        vertical-align: top;
+    }
+    .disclaimer-page .section-2 .imei-box input {
+        width: 600px;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 30px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .disclaimer-page .section-2 .imei-box #tip-success,
+    .disclaimer-page .section-2 .imei-box #tip-fail {
+        position: absolute;
+        width: 80px;
+        left: 700px;
+        top: 7px;
+        height: 40px;
+        margin: 0;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .disclaimer-page .section-2 .imei-box .btn-submit {
+        margin-top: 6px;
+        border-radius: 20px;
+        height: 40px;
+        width: 142px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+
+    /**================================================案例================================================**/
+
+    .case-index-customer .container, .case-detail-content .container {
+        width: 1000px;
+        padding: 0;
+    }
+
+    .case-index-banner .carousel-caption .more {
+        width: 142px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        border-radius: 20px;
+    }
+
+    /*======================== friendlink ============================*/
+
+    .link-page .section-1 {
+        height: 360px;
+        line-height: 360px;
+        font-size: 36px;
+    }
+    .link-page .section-1 .separate-line {
+        width: 3px;
+        height: 35px;
+        top: 6px;
+        margin: 0 2px;
+    }
+    .link-page .section-2 .description {
+        width: 700px;
+        font-size: 16px;
+        line-height: 1.75;
+        padding-top: 57px;
+    }
+    .link-page .section-2 .logo-list {
+        margin-top: 60px;
+    }
+    .link-page .section-2 .logo-list .item {
+        width: 136px;
+        height: 136px;
+        margin: 5px;
+    }
+    .link-page .section-2 .logo-list .item .logo {
+        width: 120px;
+        height: 37.5px;
+        margin: 50px auto 0;
+        background-size: 600px 37.5px;
+    }
+    .link-page .section-2 .logo-list .item.item-1 .logo {
+        background-position: 0 0;
+    }
+    .link-page .section-2 .logo-list .item.item-2 .logo {
+        background-position: -120px 0;
+    }
+    .link-page .section-2 .logo-list .item.item-3 .logo {
+        background-position: -240px 0;
+    }
+    .link-page .section-2 .logo-list .item.item-4 .logo {
+        background-position: -360px 0;
+    }
+    .link-page .section-2 .logo-list .item.item-5 .logo {
+        background-position: -480px 0;
+    }
+    .link-page .section-3 {
+        margin-top: -60px;
+        padding-top: 68px;
+        padding-bottom: 105px;
+    }
+    .link-page .section-3 .title {
+        font-size: 20px;
+        margin-bottom: 32px;
+        padding-top: 55px;
+    }
+    .link-page .section-3 .link-list {
+        font-size: 16px;
+    }
+    .link-page .section-3 .link-list a {
+        margin: 0 14px;
+    }
+
+    /**================================================媒体新闻列表================================================**/
+    .media-news-page{  margin-top: 60px;}
+    .media-news-page .section-1 { height: 184px; }
+    .media-news-page .section-1 .center-block .title-box .en{ padding-top: 62px; font-size: 14px; margin-bottom: 8px;}
+    .media-news-page .section-1 .center-block .title-box .cn{ font-size: 30px; letter-spacing: 7.5px;}
+    .media-news-page .section-2 { padding-top: 11px; padding-bottom: 65px;}
+    .media-news-page .section-2 .center-block{ width: 865px; }
+    .media-news-page .section-2 .center-block .news-list{ width: 609px; margin-right: 28px; }
+    .media-news-page .section-2 .center-block .news-list .item{ padding: 28px 0; width: 100%; }
+    .media-news-page .section-2 .center-block .news-list .item .pic-box{ width: 207px; height: 113px; text-align: center; line-height: 113px;}
+    .media-news-page .section-2 .center-block .news-list .item .pic-box img{ max-height: 113px; max-width: 207px; vertical-align: middle;}
+    .media-news-page .section-2 .center-block .news-list .item .right { margin-left: 13px; width: 384px; height: 113px;}
+    .media-news-page .section-2 .center-block .news-list .item .right .title { font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 9px; width: 384px; }
+    .media-news-page .section-2 .center-block .news-list .item .date-box{ font-size: 12px; margin-bottom: 14px; }
+    .media-news-page .section-2 .center-block .news-list .item .date-box span { margin-right: 10px;}
+    .media-news-page .section-2 .center-block .news-list .item .detail{ }
+    .media-news-page .section-2 .center-block .news-list .item .detail p{ overflow: hidden; margin-bottom: 9px; width: 384px; line-height: 17px; font-size: 12px; }
+    .media-news-page .section-2 .center-block .news-list .item .btn-open{ font-size: 12px; }
+    .media-news-page .section-2 .center-block .hot-news{ padding-top: 27px; width: 221px; }
+    .media-news-page .section-2 .center-block .hot-news .hot-title{ margin-bottom: -9px; font-size: 14px;}
+    .media-news-page .section-2 .center-block .hot-news .green{  width: 55px; height: 2px; }
+    .media-news-page .section-2 .center-block .hot-news .gray{ width: 166px; height: 2px; }
+    .media-news-page .section-2 .center-block .hot-news .item{ padding-top: 22px;  height: 53px; width: 221px;}
+    .media-news-page .section-2 .center-block .hot-news .item .hot-pic-box{ margin-right: 1px; display: inline-block; width: 53px;  height: 53px; line-height: 53px; text-align: center;}
+    .media-news-page .section-2 .center-block .hot-news .item .hot-pic-box .hot-pic { width: 53px; height: 53px; display: inline-block;}
+    .media-news-page .section-2 .center-block .hot-news .item .text{ width: 156px; height: 53px; margin-left: 6px; }
+    .media-news-page .section-2 .center-block .hot-news .item .text .title{ width: 147px; font-size: 13px; color: #29A283; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 6px;}
+    .media-news-page .section-2 .center-block .hot-news .item .text .detail{  overflow: hidden; width: 155px; font-size: 12px; line-height: 15px; }
+    .media-news-page .section-2 .center-block .hot-news .update-product{ margin-top: 29px; }
+    .media-news-page .section-2 .center-block .hot-news .update-title{ margin-bottom: -9px; font-size: 14px;}
+    .media-news-page .section-2 .center-block .hot-news .update-product .item-2{  padding: 15px 0; width: 100%; height: auto;}
+    .media-news-page .section-2 .center-block .hot-news .update-product .item-2 .update-text{ }
+    .media-news-page .section-2 .center-block .hot-news .update-product .item-2 .update-text .update-title{ margin-bottom: 2px; font-size: 13px; color: #333;}
+    .media-news-page .section-2 .center-block .hot-news .update-product .item-2 .update-text .update-icon{  width: 6px; height: 6px;  margin-right: 9px; }
+    .media-news-page .section-2 .center-block .hot-news .update-product .item-2 .update-text .date{ font-size: 12px;}
+
+    .media-news-page .section-3{ background-image: url(../images/iapp_business_bg_2.jpg); color: white; height: 216px;}
+    .media-news-page .section-3 .center-block{ margin: 0 auto; text-align: center; width: 610px; position: relative;}
+    .media-news-page .section-3 .center-block .title-box{ }
+    .media-news-page .section-3 .center-block .title-box .en{ padding-top: 49px; font-size: 15px; margin-bottom: 3px;}
+    .media-news-page .section-3 .center-block .title-box .cn{ font-size: 28px;}
+    .media-news-page .section-3 .center-block .link-list { margin: 32px auto 43px;}
+    .media-news-page .section-3 .center-block .link-list .item{ display: inline-block; margin: 0 33px; font-size: 22px;}
+    .media-news-page .section-3 .center-block .link-list .item img{ width: 23px; height: 23px; vertical-align: text-bottom;}
+    .media-news-page .section-2 .pager-wrapper { padding-top: 6px; text-align: right; }
+    .media-news-page .section-2 .pager-wrapper li { display: inline-block; width: 32px; height: 32px; border-radius: 50%; border: 1px solid #e1e1e1; cursor: pointer; font-size: 14px; color: #3a3a3a; line-height: 32px; background-color: white; margin: 0 2px; text-align: center; }
+    .media-news-page .section-2 .pager-wrapper li.active { background-color: #54ab7d; border: 1px solid #49996f; color: white; }
+    .media-news-page .section-2 .pager-wrapper li.pager-nav img { width: 9px; }
+}
+
+

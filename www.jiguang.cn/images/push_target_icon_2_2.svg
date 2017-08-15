@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 21</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.68434189e-14,4.99854806 C5.68434189e-14,2.2379262 2.24553095,-2.27373675e-13 5.00003191,-2.27373675e-13 L48.0090859,-2.27373675e-13 C49.1086374,-2.27373675e-13 50.6065959,0.647035599 51.3709146,1.46230891 L63.6290854,14.5376911 C64.3862206,15.345302 64.4302988,16.6836414 63.7211084,17.5346699 L51.2788916,32.4653301 C50.5725793,33.3129049 49.1109357,34 48.0090859,34 L5.00003191,34 C2.23859054,34 5.68434189e-14,31.769165 5.68434189e-14,29.0014519 L5.68434189e-14,4.99854806 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="64.2261528" height="34" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M11.1206497,34 L5.0072785,34 C2.24183495,34 -6.25277607e-13,31.769165 -6.25277607e-13,29.0014519 L-6.25277607e-13,4.99854806 L-6.25277607e-13,4.99854806 C-6.25277607e-13,2.2379262 2.24553095,0 5.00003191,0 L48.0090859,0 C49.1086374,0 50.6065959,0.647035599 51.3709146,1.46230891" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="51.3709146" height="34" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-9″-Landscape" transform="translate(-398.000000, -484.000000)" stroke="#787878">
+            <g id="Group-21" transform="translate(399.000000, 485.000000)">
+                <g id="Group" transform="translate(67.354353, 59.090429) rotate(-20.000000) translate(-67.354353, -59.090429) translate(34.854353, 42.090429)">
+                    <use id="Rectangle-4" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    <circle id="Oval-3" cx="47.5" cy="16.5" r="5"></circle>
+                </g>
+                <g id="Group-Copy" transform="translate(49.122525, 53.772257) rotate(-4.000000) translate(-49.122525, -53.772257) translate(23.122525, 36.772257)" stroke-width="2">
+                    <use id="Rectangle-4" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                </g>
+                <ellipse id="Oval-4" cx="57" cy="57" rx="57" ry="57"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

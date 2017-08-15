@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet-9″-Landscape" transform="translate(-663.000000, -484.000000)" stroke="#787878">
+            <g id="Group-22" transform="translate(664.000000, 485.000000)">
+                <ellipse id="Oval-4-Copy-2" cx="57" cy="57" rx="57" ry="57"></ellipse>
+                <g id="Group-4" transform="translate(31.000000, 22.000000)">
+                    <ellipse id="Oval-6" cx="26.5" cy="4.5" rx="4.5" ry="4.5"></ellipse>
+                    <ellipse id="Oval-6" cx="48.5" cy="17.5" rx="4.5" ry="4.5"></ellipse>
+                    <ellipse id="Oval-6-Copy-2" cx="48.5" cy="43.5" rx="4.5" ry="4.5"></ellipse>
+                    <ellipse id="Oval-6-Copy" cx="4.5" cy="17.5" rx="4.5" ry="4.5"></ellipse>
+                    <ellipse id="Oval-6-Copy-3" cx="4.5" cy="43.5" rx="4.5" ry="4.5"></ellipse>
+                    <path d="M4.5,22.5 L4.5,38.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M48.5,22.5 L48.5,38.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                    <path d="M8.5,14.5 L22.5,6.5" id="Line" stroke-linecap="square"></path>
+                    <path d="M8.5,51.5 L16.5,46.5" id="Line-Copy-3" stroke-linecap="square" transform="translate(12.500000, 49.000000) scale(1, -1) translate(-12.500000, -49.000000) "></path>
+                    <path d="M30.5,14.5 L44.5,6.5" id="Line-Copy" stroke-linecap="square" transform="translate(37.500000, 10.500000) scale(-1, 1) translate(-37.500000, -10.500000) "></path>
+                    <path d="M37,51.5 L44.5,47" id="Line-Copy-4" stroke-linecap="square" transform="translate(40.750000, 49.250000) scale(-1, -1) translate(-40.750000, -49.250000) "></path>
+                    <g id="Group-3" transform="translate(26.332628, 31.048259) rotate(30.000000) translate(-26.332628, -31.048259) translate(4.832628, 29.548259)" stroke-linecap="square">
+                        <path d="M0.750418068,1.42127856 L13.7889683,1.42127856" id="Line"></path>
+                        <path d="M29.233909,1.42127856 L42.450564,1.42127856" id="Line-Copy-5"></path>
+                    </g>
+                    <g id="Group-3" transform="translate(27.022072, 31.299569) scale(-1, 1) rotate(30.000000) translate(-27.022072, -31.299569) translate(5.022072, 29.799569)" stroke-linecap="square">
+                        <path d="M0.754008818,1.42807937 L14.4934119,1.42807937" id="Line"></path>
+                        <path d="M29.3230756,1.42807937 L42.6536899,1.42807937" id="Line-Copy-5"></path>
+                    </g>
+                    <g id="Group-3" transform="translate(26.500000, 15.500000) scale(-1, -1) rotate(90.000000) translate(-26.500000, -15.500000) translate(19.000000, 14.000000)" stroke-linecap="square">
+                        <path d="M0.0498144946,1.45746927 L13.8187279,1.45746927" id="Line-Copy-5"></path>
+                    </g>
+                    <path d="M25.5133036,34.8064388 C26.3988487,35.4656245 27.8527128,35.5002886 28.7201461,34.8064388 C28.7201461,34.8064388 31.2334497,33.5375661 31.2334497,30.5 C31.2334497,27.4624339 29.3903292,26 27.1167249,26 C27.0967127,26 27.0767339,26.0001133 27.0567895,26.00034 C24.8108172,26.0258666 23,27.4891704 23,30.5 C23,33.5375661 25.5133036,34.8064388 25.5133036,34.8064388 Z" id="Oval-7"></path>
+                    <path d="M19,52 L23.2100746,55 L23.2100747,72 L30.2268659,72 L30.226866,55 L34.4377182,52 L34.4377182,40 L29.1537094,38 L26.7188591,42 L24.6134329,38 L19,40 C19.7016791,47.8928571 19,52 19,52 Z" id="Path-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

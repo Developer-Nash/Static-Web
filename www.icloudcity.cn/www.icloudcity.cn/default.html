@@ -1,0 +1,517 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>潍坊城市云网络科技有限公司</title>
+<meta name="keywords" content="">
+<meta name="description" content=" 潍坊城市云网络科技有限公司是创新智慧城市解决方案的提供商与运营商，由潍坊市人民政府与中国首批、浙江省首家创业板上市企业--银江股份有限公司共同投资组建，公司大力践行国家“互联网+”、“大数据”以及“智慧城市”战略，致力于定向开发城市级公共服务平台、运营管理平台建设。公司针对潍坊市创新性地推出了智慧城市平台——“潍V”手机App，以智慧政务、智慧民生、智慧经济为三条主线，融合政务、交通、教育、健康、商贸、通讯等城市服务，以云支付、大数据、移动互联、物联网为技术手段，推动智慧潍坊高效绿色可持续发展，实现政府、企业、百姓三方的良性互动,共享智慧潍坊建设成果。公司立足鸢都、战齐鲁大地、赢华夏未来，期待你我共同携手，共创、共享、共赢……">
+<link rel="stylesheet" href="css/jquery.fullpage.css">
+<link rel="shortcut icon" href="/views/vv/images/icon.ico">
+<style>
+* { margin: 0; padding: 0;zoom: 1;border: none;}
+body { font: 16px/1.8 "Microsoft Yahei",verdana;}
+#fullPage-nav { _display: none; font-size: 12px;}
+#fullPage-nav li { width: 90px; height: 21px; margin: 10px 0 0; vertical-align: middle;}
+#fullPage-nav li a { float: right; width: 21px; height: 21px; color: #fff; text-decoration: none; text-align: right; background: url(images/dot.png) 5px 5px no-repeat;}
+#fullPage-nav li .active { background-position: 0 bottom;}
+#fullPage-nav span { display: none;}
+.fullPage-tooltip { float: left; top: 0; margin-right: 5px; font: 12px "Microsoft Yahei"; color: #8F9DA4; line-height: 21px;}
+
+.section { position: relative; overflow: hidden;}
+.section .bg { position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+.section .bg img { display: block; width: 100%; height: 100%;}
+.section .nav{position: fixed;top: 0px;}
+.section .nav img{width: 50px;height: 48px;}
+.bg11 { position: absolute; bottom: 0; width: 100%; height: 850px; background: url(images/bg11.png) 50% 0 no-repeat; transition: all 1s;}
+.bg12 { position: absolute; bottom: -392px; width: 100%; height: 392px; background: url(images/bg12.png) 50% 0 no-repeat; opacity: 0; transition: all 1.7s; bottom: 90px\0;}
+.bg13 { position: absolute; bottom: 0px; width: 100%; height: 678px; background: url(images/bg13.png) no-repeat; transition: all 1s;background-size: 100% auto;
+background-position: bottom;}
+.bg113 { position: absolute; left: 50%;  width: 620px;  background: url(images/car.png) no-repeat; opacity: 0; transition: all 1s;height: 620px;top: 50%;
+background-size: 620px auto;background-position: 0px 0px; margin-top:300px;margin-left: -500px;}
+.bg114 { position: absolute; left: 50%;  width: 400px;  background: url(images/bg114.png) no-repeat; opacity: 0; transition: all 1s;height: 72px;top: 50%;
+background-size: 400px auto;background-position: 0px 0px;margin-top: -120px;margin-left: -120px;}
+.bg115 { position: absolute; left: 50%;  width: 400px;  background: url(images/bg115.png) no-repeat; opacity: 0; transition: all 1s;height: 72px;top: 50%;
+background-size: 400px auto;background-position: 0px 0px;margin-top: 0px;margin-left: -40px;}
+.bg116 { position: absolute; left: 50%;  width: 400px;  background: url(images/bg116.png) no-repeat; opacity: 0; transition: all 1s;height: 72px;top: 50%;
+background-size: 400px auto;background-position: 0px 0px;margin-top: 120px;margin-left: 40px;}
+.bg117 { position: absolute; left: 50%;  width: 400px;  background: url(images/bg117.png) no-repeat; opacity: 0; transition: all 1s;height: 72px;top: 50%;
+background-size: 400px auto;background-position: 0px 0px;margin-top: 240px;margin-left: 140px;}
+.hgroup { position: absolute; width: 653px; height: 59px; left: 50%; top: 23%; margin: 0 0 0 -326px; text-indent: -9999px; background-image: url(images/weiv.png); opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;-moz-transform:scale(0.5, 0.5);-ms-transform:scale(0.5, 0.5);-o-transform:scale(0.5, 0.5);}
+.p11 { position: absolute; left: 50%; top: 36%; width: 653px; margin: 0 0 0 -326px; font-size: 16px; color: #ffffff; opacity: 0; transition: all 0.5s;}
+a{text-decoration: none;}
+  .menu{
+        position: absolute;
+        top: 22px;
+        height: 78px;
+        opacity: 1;
+        font-family: '微软雅黑';
+        width: 100%;
+    }
+    .menu .content{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 15px;
+        margin: 0 auto;
+        width: 980px;
+        /*background: rgba(83,212, 145, 0.7);*/
+        background: #37e0ca;
+    }
+    .menu .logo{
+        position: absolute;
+        background-image: url("images/logo.png");
+        background-repeat: no-repeat;
+        width: 175px;
+        height: 59px;
+        top: 15px;
+        left: 15px;
+    }
+    .menu .logo1{
+        background-position: 0px 0px;
+    }
+    /* Buttons */
+        .menu .buttons{
+            position: absolute;
+            right: 15px;
+            top: 0px;
+            bottom: 0px;
+        }
+        .menu .buttons .item{
+            position: relative;
+            display: block;
+            color: #F2F2F2;
+            font-size: 16px;
+            float: left;
+        }
+         .menu .buttons a{ position: relative;
+            top: 30px;
+            margin:0px 10px 0px 10px;
+            padding: 0px 10px 0px 10px;
+            border:2px solid #37e0ca;
+            border-radius: 24px;
+        }
+            .menu .buttons a:hover{ border:2px solid #fff; border-radius: 24px;background: #6de8d8;
+           }
+           ul li {
+    list-style: none;
+}
+.box {
+    width: 52px;
+    height: 120px;
+    position:fixed;
+    z-index:100000;
+    bottom: 50px;
+    right:50px;
+    _position:absolute;
+    _bottom:auto;
+    _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}
+.box ul li {
+    width: 48px;
+    display: block;
+    height: 50px;
+    padding: 2px;
+    overflow: hidden
+}
+.weixin {
+    background: url(images/elevator.png) no-repeat;
+    background-position: 0 87%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.weixin:hover {
+    background-position: 0 93%
+}
+.weixin:hover .weixin-logo {
+    width: 170px;
+    height: 204px;
+}
+.idea {
+    background: url(images/elevator.png) no-repeat;
+    background-position: 0 43%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.idea:hover {
+    background-position: 0 49%;
+}
+.app {
+    background: url(images/elevator.png) no-repeat;
+    background-position: 0 55%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.app:hover {
+    background-position: 0 61%;
+}
+.app:hover .app-logo {
+    width: 170px;
+    height: 185px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.weixin-logo {
+    background: url(images/elevator.png) no-repeat;
+    background-position: 0 0;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: -154px;
+    left: -171px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.app-logo {
+    background: url(images/elevator.png) no-repeat;
+    background-position: 0 26%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: -18px;
+    left: -171px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.bg21 { position: absolute; left: 50%; bottom: 15%; width: 819px; height: 250px; margin-left: -608px; margin-bottom: 40px; background: url(images/bg21.png) 0 0 no-repeat; transition: all 1s;  opacity: 0; margin-left: -1108px;}
+.bg22 { position: absolute; left: 50%; bottom: 15%; width: 819px; height: 299px; margin-left: -280px; margin-bottom: 70px; background: url(images/bg22.png) right 0 no-repeat; transition: all 1s; opacity: 0; margin-left: 320px;}
+.bg23 { position: absolute; left: 50%; bottom: 15%; width: 819px; height: 325px; margin-left: -409px; background: url(images/bg23.png) 50% 0 no-repeat; transition: all 1s;  bottom: -40%;}
+.section strong { position: absolute; left: 50%; top: 15%; z-index: 10; width: 512px; height: 45px; margin-left: -256px; font-size: 24px; font-weight: 500; color: #ffffff; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;font-size: 34px;}
+.section h3 { position: absolute; left: 50%; top: 15%; z-index: 10; width: 512px; height: 45px; margin-left: -256px; margin-top: 60px; text-indent: -9999px; background-repeat: no-repeat; opacity: 0; -webkit-transform:scale(0.5, 0.5); -moz-transform:scale(0.5, 0.5);-ms-transform:scale(0.5, 0.5);-o-transform:scale(0.5, 0.5);transform:scale(0.5, 0.5); transition: all 1s;}
+.p1 { position: absolute; left: 50%; top: 15%; width: 510px; margin-left: -255px; margin-top: 130px; font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
+.p2 { position: absolute; left: 50%; top: 43%; width: 400px; margin-left: -60px;  font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
+.p3{ position: absolute; left: 50%; top: 52%; width: 400px; margin-left: -60px;  font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
+.p4{ position: absolute; left: 50%; top: 56%; width: 400px; margin-left: -60px;  font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
+.p22 { position: absolute; left: 50%; top: 33%; width: 400px; margin-left: -60px;  font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
+.p33{ position: absolute; left: 50%; top: 38%; width: 400px; margin-left: -60px;  font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
+.p44{ position: absolute; left: 50%; top: 54%; width: 400px; margin-left: -60px;  font-size: 16px; color: #727F8C; opacity: 0; transition: all 1s;}
+.p91{height: 40px;}
+
+.p5{ position: absolute; left: 50%; top: 96px; width: 400px; margin-left: -500px;  font-size: 30px; color: #727F8C; opacity: 0; transition: all 1s;}
+.section4 h3 { background-image: url(images/t4.png);}
+.section3 strong { width: 561px; margin-left: -280px;font-size: 34px;color: #ffffff;}
+.section3 h3 { width: 561px; margin-left: -280px; background-image: url(images/t8.png);}
+.section2 strong { width: 609px; margin-left: -304px;color:#fff;}
+.section2 h3 { width: 609px; margin-left: -304px; background-image: url(images/t9.png);}
+.section2 h3 span { position: absolute; left: -100px; top: -48px; width: 89px; height: 90px; background-image: url(images/icon.png);}
+
+.bg41 { position: absolute; bottom: -372px; width: 100%; height: 372px; background: url(images/bg41.png) 50% 0 no-repeat; transition: all 1s;}
+.bg42 { position: absolute; bottom: -449px; width: 100%; height: 449px; background: url(images/bg42.png) 50% 0 no-repeat; transition: all 1s;}
+.bg43 { position: absolute; bottom: -449px; width: 100%; height: 449px; margin-bottom: -130px; background: url(images/bg43.png) 50% 0 no-repeat; transition: all 1s;}
+
+
+.bg81 { position: absolute; width: 100%; bottom: 100px; height: 215px; background: url(images/bg81.png) 50% 0 no-repeat;}
+.bg82 { position: absolute; left: 50%; bottom: 160px; width: 164px; height: 117px; margin-left: -180px; background-image: url(images/bg82.png); opacity: 0; transition: all 1s;}
+.bg83 { position: absolute; left: 50%; bottom: 280px; width: 164px; height: 117px; margin-left: -330px; background-image: url(images/bg83.png); opacity: 0; transition: all 1s;}
+.bg84 { position: absolute; left: 50%; bottom: 320px; width: 164px; height: 117px; margin-left: -430px; background-image: url(images/bg84.png); opacity: 0; transition: all 1s;}
+.p8 { position: absolute; left: 50%; top: 15%; width: 565px; margin-left: -282px; margin-top: 130px; font-size: 16px; color: #727F8C; opacity: 0; transition: all 2s;color: #ffffff;}
+
+ .bg91, .bg92, .bg93 { padding-top: 350px; font-size: 16px; color: #fff;}
+.bg71 { position: absolute; left: 50%;  width: 500px;  background: url(images/bg71.png) no-repeat; opacity: 0; transition: all 1s;height: 500px;top: 50%;
+background-size: 500px auto;background-position: 0px 0px;margin-left:-250px; margin-top:-250px;
+}
+.bg61 { position: absolute; left: 50%;  width: 500px;  background: url(images/bg71-2.png) no-repeat; opacity: 0; transition: all 1s;height: 500px;top: 50%;
+background-size: 500px auto;background-position: 0px 0px;margin-left:-230px; margin-top:-277px;
+}
+.bgcloud { position: absolute; left: 50%;  width: 420px;  background: url(images/cloud2.png) no-repeat; opacity: 0; transition: all 1s;height: 239px;top: 50%;
+margin-left:-588px; margin-top:-235px;
+}
+.car { position: absolute; left: 50%;  width: 200px;  background: url(images/car.gif) no-repeat; opacity: 0; transition: all 1s;height: 200px;top: 50%;
+margin-left:-545px; margin-top:-184px; background-size: 160px;
+}
+.qixing { position: absolute; left: 50%;  width: 364px;  background: url(images/qixing.png) no-repeat; opacity: 1; transition: all 1s;height: 336px;top: 50%;
+margin-left:100px; margin-top:-140px;
+}
+.bg711 { position: absolute; left: 50%;  width: 446px;  background: url(images/car.png) no-repeat; opacity: 0; transition: all 1s;height: 375px;top: 50%;
+background-position: 0px 0px;margin-left:-600px;margin-top: -85px;
+}
+
+.bg611 { position: absolute; left: 50%;  width: 500px;  background: url(images/bg711-2.png) no-repeat; opacity: 0; transition: all 1s;height: 500px;top: 50%;
+background-size: 500px auto;background-position: 0px 0px;margin-left:-250px; margin-top:-250px;
+}
+.bg91 { position: absolute; left: 50%; bottom: 25%; width: 330px; margin-left: -970px; background: url(images/bg91.png)  no-repeat; opacity: 0; transition: all 1s;}
+.bg91 p { position: relative; left: 10px;top:34px; }
+.bg92 { position: absolute; left: 50%; bottom: 25%; width: 330px; margin-left: -82px; background: url(images/bg92.png)  no-repeat; opacity: 0; transition: all 1s;}
+.bg92 p { position: relative; left: 40px; margin-left: 30px;top:34px;}
+.bg93 { position: absolute; left: 50%; bottom: 25%; width: 330px; margin-left: 630px; background: url(images/bg93.png)  no-repeat; opacity: 0; transition: all 1s;}
+.bg93 p { position: relative; left: -20px; padding-left: 100px;top:34px;}
+
+.bg101 { position: absolute; width: 100%; height: 100%; background: url(images/bg101.png) 50% 20% no-repeat;}
+.bg102 { position: absolute; width: 100%; top: 25%; height: 79px; background: url(images/bg102.png) 50% 0 no-repeat; opacity: 0; -webkit-transform:scale(0.5, 0.5);-moz-transform:scale(0.5, 0.5);-ms-transform:scale(0.5, 0.5);-o-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5); transition: all 1s;}
+.bg103 { position: absolute; width: 100%; top: 25%; height: 37px; margin-top: 110px; background: url(images/bg103.png) 50% 0 no-repeat; opacity: 0; -webkit-transform:scale(0.5, 0.5); transform:scale(0.5, 0.5);-moz-transform:scale(0.5, 0.5);-ms-transform:scale(0.5, 0.5);-o-transform:scale(0.5, 0.5); transition: all 1s;}
+.go { position: absolute; left: 50%; top: 55%; width: 246px; height: 246px; margin-top: 180px; margin-left: -127px; text-indent: -9999px; background-image: url(images/erweima.png); opacity: 0; transition: all 1s;}
+
+.copyright { position: absolute; left: 0; bottom: 20px; width: 100%; text-align: center; font-size: 0;}
+.copyright a, .copyright span { margin: 0 7px; font-size: 12px; color: #a0a0a0;}
+
+/* CSS3过度及动画 */
+.active strong, .active h3 { opacity: 1; -webkit-transform:scale(1, 1);-moz-transform:scale(1, 1); -ms-transform:scale(1, 1);-o-transform:scale(1, 1);transform:scale(1, 1); transition-delay: 0.7s;}
+.active .p1 { opacity: 1; transition-delay: 1.7s;color: #ffffff;font-weight: normal;}
+.active .p2 { opacity: 1; transition-delay: 1.7s;color: #ffffff;font-weight: normal;}
+.active .p3 { opacity: 1; transition-delay: 2.3s;color: #ffffff;font-weight: normal;}
+.active .p4 { opacity: 1; transition-delay: 2.8s;color: #ffffff;font-weight: normal;}
+.active .p22 { opacity: 1; transition-delay: 1.7s;color: #ffffff;font-weight: normal;}
+.active .p33{ opacity: 1; transition-delay: 2.3s;color: #ffffff;font-weight: normal;}
+.active .p44 { opacity: 1; transition-delay: 2.8s;color: #ffffff;font-weight: normal;}
+.active .p5 { opacity: 1; transition-delay: 0s;color: #ffffff;font-weight: normal;}
+.active .bg12 { bottom: 90px; opacity: 1; transition-delay: 0.7s; }
+.active .bg13 { bottom: 0; opacity: 1; transition-delay: 1.3s;}
+.active .bg113 {margin-top:-250px; opacity: 1; transition-delay: 0.7s;}
+.active .bg114 { opacity: 1; transition-delay: 1.2s;}
+.active .bg115 { opacity: 1; transition-delay: 1.7s;}
+.active .bg116 { opacity: 1; transition-delay: 2.2s;}
+.active .bg117 { opacity: 1; transition-delay: 2.7s;}
+.active .hgroup { opacity: 1; -webkit-transform:scale(1, 1);-moz-transform:scale(1, 1); -ms-transform:scale(1, 1);-o-transform:scale(1, 1); transform:scale(1, 1); transition-delay: 0.7s;}
+.active .mail { top: 25px; transition-delay: 0.7s;}
+.active .p11 { opacity: 1; transition-duration: 1s; transition-delay: 2s;}
+
+.active .bg21 { opacity: 1; margin-left: -608px; transition-delay: 0.7s;}
+.active .bg23 { bottom: 15%; transition-delay: 0.7s;}
+.active .bg22 { margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg31, .active .bg32 { opacity: 1; transition-delay: 1s;}
+.active .bg33 { margin-left: -120px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg41 { bottom: 15%; transition-delay: 0.7s;}
+.active .bg42 { bottom: 15%; transition-delay: 1.1s;}
+.active .bg43 { bottom: 15%; transition-delay: 0.9s;}
+
+.active .bg82 { bottom: 260px; margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+.active .bg83 { bottom: 360px; margin-left: -430px; opacity: 1; transition-delay: 1s;}
+.active .bg84 { bottom: 440px; margin-left: -510px; opacity: 1; transition-delay: 1.2s;}
+.active .p8 { opacity: 1; transition-delay: 1.7s;}
+.active .bg71 { margin-left: -600px; opacity: 1; transition-delay: 0.7s;}
+.active .bg61 { margin-left: -588px; opacity: 1; transition-delay: 1.2s;}
+.active .bgcloud { opacity: 1; transition-delay: 2s;}
+.active .car {  opacity: 1; transition-delay: 2s;}
+.active .bg711 {  opacity: .8; transition-delay: 2.8s;}
+.active .bg611 { margin-left: -600px; opacity: 1; transition-delay: 1.2s;}
+.active .bg91 { margin-left: -500px; opacity: 1; transition-delay: 0.7s;}
+.active .bg92 { opacity: 1; transition-delay: 0.8s;}
+.active .bg93 { margin-left: 300px; opacity: 1; transition-delay: 0.7s;}
+
+.active .bg102, .active .bg103 { opacity: 1; -webkit-transform:scale(1, 1); -moz-transform:scale(1, 1); -ms-transform:scale(1, 1);-o-transform:scale(1, 1);transform:scale(1, 1); transition-delay: 0.7s;}
+.active .go { top: 25%; opacity: 1; transition-delay: 1.2s;}
+.active .go2 { top: 25%; opacity: 1; transition-delay: 1.2s;}
+/* for lt ie 10 */
+.ltie10 strong, .ltie10 h3 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
+.ltie10 .p1 { opacity: 1; transition-delay: 1.7s;}
+.ltie10 .bg12 { bottom: 90px; opacity: 1; transition-delay: 0.7s; }
+.ltie10 .bg13 { bottom: 0; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .bg113 { bottom: 0; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .hgroup { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
+.ltie10 .mail { top: 25px; transition-delay: 0.7s;}
+.ltie10 .p11 { opacity: 1; transition-duration: 1s; transition-delay: 2s;}
+
+.ltie10 .bg21 { opacity: 1; margin-left: -608px; transition-delay: 0.7s;}
+.ltie10 .bg23 { bottom: 15%; transition-delay: 0.7s;}
+.ltie10 .bg22 { margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .p2{ margin-left: -60px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .p3 { margin-left: -60px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .bg31, .ltie10 .bg32 { opacity: 1; transition-delay: 1s;}
+.ltie10 .bg33 { margin-left: -120px; opacity: 1; transition-delay: 0.7s;}
+
+.ltie10 .bg41 { bottom: 15%; transition-delay: 0.7s;}
+.ltie10 .bg42 { bottom: 15%; transition-delay: 1.1s;}
+.ltie10 .bg43 { bottom: 15%; transition-delay: 0.9s;}
+
+
+.ltie10 .bg82 { bottom: 260px; margin-left: -280px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .bg83 { bottom: 380px; margin-left: -430px; opacity: 1; transition-delay: 1s;}
+.ltie10 .bg84 { bottom: 420px; margin-left: -510px; opacity: 1; transition-delay: 1.2s;}
+.ltie10 .p8 { opacity: 1; transition-delay: 1.7s;}
+
+.ltie10 .bg91 { margin-left: -500px; opacity: 1; transition-delay: 0.7s;}
+.ltie10 .bg92 { opacity: 1; transition-delay: 0.8s;}
+.ltie10 .bg93 { margin-left: 300px; opacity: 1; transition-delay: 0.7s;}
+
+.ltie10 .bg102, .ltie10 .bg103 { opacity: 1; transform:scale(1, 1); transition-delay: 0.7s;}
+.ltie10 .go { top: 25%; opacity: 1; transform:scale(1, 1); transition-delay: 1.2s;}
+.ltie10 .go2 { top: 25%; opacity: 1; transform:scale(1, 1); transition-delay: 1.3s;}
+.top{width: 50px;height: 50px;z-index: 10000000;position: fixed;bottom: 8px;right: 50px;background: #d0d6d9;opacity: 0;}
+.top p{text-align: center;line-height: 50px;}
+.top p a{color: #fff;text-align: center;}
+</style>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js "></script>
+<script src="js/jquery.fullpage.min.js"></script>
+<script type="text/javascript" src="js/ckplayer.js" charset="utf-8"></script>
+ <script>
+$(function(){
+    if($.browser.msie && $.browser.version < 10){
+        $('body').addClass('ltie10');
+    }
+    $.fn.fullpage({
+        verticalCentered: false,
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+        navigation: true,
+        navigationTooltips: ['首页', '产品概述', '扫码租车','掌中宝','立即体验'],
+        loopBottom:true,
+        resize:true
+    });
+});
+</script>
+</head>
+
+<body>
+ <div class="box">
+      <ul>
+        <li class="weixin">
+          <div class="weixin-logo"></div>
+        </li>
+        <li class="app">
+          <div class="app-logo"></div>
+        </li>
+      </ul>
+</div> 
+<div class="top">
+    <p><a href="index.php#page1">TOP</a></p>
+</div>
+<div class="section section1">
+            
+	<div class="bg"><img src="picture/section1.jpg" alt=""></div>
+	
+	<div class="bg13"></div>
+	 <div class="menu">
+            <div class="content">
+            <a class="logo" href=""></a>
+            <div class="buttons" >
+                <a class="item link" href="index.php"><span>首页</span></a>
+                    <!--菜单-->
+                                                <a class="item link" href="/index.php?c=content&a=list&catid=22"><span>公司简介</span></a>
+                                                    <a class="item link" href="/index.php?c=content&a=list&catid=21"><span>新闻动态</span></a>
+                                                    <a class="item link" href="index.php#page2" ><span>产品概述</span></a>
+                                               <a class="item link" href="/index.php?c=content&a=list&catid=19"><span>招贤纳士</span></a>
+                                                    <a class="item link" href="/index.php?c=content&a=list&catid=55"><span>联系我们</span></a>
+                                            <a  class="item link" href="#page5" ><span>扫码下载</span></a>
+            </div>
+           
+        </div>
+    </div>
+	<div class="hgroup">
+		<h1><a href="http://www.wv-wf.com.cn/">潍V 3.0</a></h1>
+		<h2>开启智慧潍坊新生活</h2>
+	</div>
+	<p class="p11">潍V 3.0版&mdash;&mdash;“潍V”以“接地气、惠民生”为主要特色，集社交、娱乐、购物、支付、政务、教育、医疗等智慧化项目为一体,实现了市民、企业和政府三方间的良性互动，开启智慧潍坊新生活。<br /> <span style="float:right;">一一潍坊城市云网络科技有限公司</p>
+</div>
+<div class="section section2">
+	<div class="bg"><img src="picture/section9.jpg" alt=""></div>
+	<!--<strong>[潍v]</strong>
+	<h3><span></span></h3>-->
+           <!--<p class="p5"><span style="font-size:40px;">潍v</span>-开启智慧潍坊新生活</p>-->
+            <div class="bg91">
+                <p class="p91" style="position:relative;left:-80px;"><span style="font-size:20px;position:relative;left:98px;">>>>云支付</span><br>扫一扫:专为商家打造、付款码:可实现扫码支付功能、我的财富:轻松查询收支明细、缴费:让缴费更方便</p>
+            </div>
+            <div class="bg92">
+                <p class="p91" style="position:relative;left:-100px;"><span style="font-size:20px;position:relative;left:98px;">>>>v热点</span><br>下载“潍V”，点击“潍V”主页上的“V点”，搜索城市热点WiFi，即可畅享无线上网</p>
+            </div>
+            <div class="bg93">
+                <p class="p91" style="position:relative;left:-88px;"><span style="font-size:20px;position:relative;left:10px;">>>>朋友群</span><br>通讯录:所有已添加的好友列表支持首字母快速搜索好友功能</p>
+            </div>
+</div>
+<div class="section section3">
+	<div class="bg"><img src="picture/section8.jpg" alt=""></div>
+	<!--<strong>[ 潍V-云支付 ]</strong>
+	<h3>潍V&nbsp;&nbsp;扫码支付</h3>
+	<p class="p8">
+		扫一扫：为每一个商家定制唯一的二维码，消费者通过扫描商家的二维码实现付款。<br>
+		付款码：可实现扫码支付功能。<br>
+		我的财富：即我的账单，用户可查询自己的收支明细，并可通过“全部”、“收入”、“支出”三个按钮针对性的进行查询。<br>
+	</p>-->
+           <div class="bg71"></div>
+           <div class="bg61"></div>
+           <div class="bgcloud"></div>
+           <div class="car"></div>
+           <div class="qixing"></div>
+          
+           <!--<p class="p5"><span style="font-size:40px;">潍v</span>-扫码租车</p>-->
+</div>
+<div class="section section3">
+    <div class="bg"><img src="picture/section4.jpg" alt=""></div>
+    <!--<strong>[ 潍V-云支付 ]</strong>
+    <h3>潍V&nbsp;&nbsp;扫码支付</h3>
+    <p class="p8">
+        扫一扫：为每一个商家定制唯一的二维码，消费者通过扫描商家的二维码实现付款。<br>
+        付款码：可实现扫码支付功能。<br>
+        我的财富：即我的账单，用户可查询自己的收支明细，并可通过“全部”、“收入”、“支出”三个按钮针对性的进行查询。<br>
+    </p>-->
+         
+          <div class="bg113"></div>
+          <div class="bg114"></div>
+          <div class="bg115"></div>
+          <div class="bg116"></div>
+          <div class="bg117"></div>
+           <!--<p class="p22">平安校园：幼儿园安全视频监控，实现学校监管透明化。</p>
+           <p class="p33">平安校车：学生家长可随时掌握学生上下校车、车内状况、运行路线等信息，搭建起高效的家长、学校、学生三方互动平台，为孩子们的安全出行筑起了一道“防护墙”，给家长吃上“定心丸”。</p>
+           <p class="p44">网络课堂：基于互联网的远程在线互动培训课堂，从根本上扩展了教育，具有可持续的跨校、跨区、跨国和连接全球优势，形成一种可以灵活缩放的混合教育模式，省钱、省力、又省心！</p>-->
+          <!--<p class="p5">潍v-掌中宝</p>-->
+           
+           
+</div>
+<div class="section section5">
+	<div class="bg"><img src="picture/section10.jpg" alt=""></div>
+	<div class="bg101"></div>
+	<div class="bg102"></div>
+	<div class="bg103"></div>
+	<a class="go" href="http://icloudcity.oss-cn-qingdao.aliyuncs.com/download-app%2FCityBao.apk" title="点击下载安卓版到电脑">潍v下载</a>
+	
+</div>
+
+</body>
+<script>
+
+   var scrollFunc = function (e) {
+        var direct = 0;
+        e = e || window.event;
+        if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件             
+            if (e.wheelDelta !=0) { //当滑轮向下滚动时
+                //
+                 setTimeout(function (){
+                    $('.top').css('opacity',.8);
+                    }, 300);
+                 $('.top a').click(function(){
+                     $(this).parent().parent().animate({
+      
+                    opacity:'0'
+    
+                      });
+                 })
+            }
+        } else if (e.detail) {  //Firefox滑轮事件
+            if (e.detail != 0) { //当滑轮向下滚动时
+                setTimeout(function (){
+                    $('.top').css('opacity',.8);
+                    }, 300);
+                    $('.top a').click(function(){
+                    $(this).parent().parent().animate({
+      
+                    opacity:'0'
+    
+                      });
+                 })
+            }
+        }
+        ScrollText(direct);
+    }
+    //给页面绑定滑轮滚动事件
+    if (document.addEventListener) {
+        document.addEventListener('DOMMouseScroll', scrollFunc, false);
+    }
+    //滚动滑轮触发scrollFunc方法
+    window.onmousewheel = document.onmousewheel = scrollFunc;  
+</script>
+</html>

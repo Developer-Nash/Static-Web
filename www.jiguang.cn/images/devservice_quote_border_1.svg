@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="980px" height="257px" viewBox="0 0 980 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,9.00994017 C0,4.03388762 4.02583582,0 8.99928625,0 L971.000714,0 C975.970882,0 980,4.03150016 980,9.00994017 L980,234.99006 C980,239.966112 975.972696,244 971.002445,244 L499.527344,244 L490,256.675781 L481.355469,244 L9.00093454,244 C4.02985566,244 0,239.9685 0,234.99006 L0,9.00994017 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="980" height="256.675781" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M0,9.00994017 C0,4.03388762 4.02583582,0 8.99928625,0 L971.000714,0 C975.970882,0 980,4.03150016 980,9.00994017 L980,234.99006 C980,239.966112 975.972696,244 971.002445,244 L499.527344,244 L490,256.675781 L481.355469,244 L9.00093454,244 C4.02985566,244 0,239.9685 0,234.99006 L0,9.00994017 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="980" height="256.675781" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-19">
+            <text id="“-copy" font-family="Times-Bold, Times" font-size="130" font-weight="bold" fill="#FFFFFF">
+                <tspan x="26" y="134">“</tspan>
+            </text>
+            <use id="Rectangle-31-Copy" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+            <text id="“-copy-2" font-family="Times-Bold, Times" font-size="130" font-weight="bold" fill="#FFFFFF">
+                <tspan x="26" y="134">“</tspan>
+            </text>
+            <use id="Rectangle-31-Copy-2" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>
